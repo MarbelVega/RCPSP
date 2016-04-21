@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public class Test {
 	
 	public static void main (String[] args) throws FileNotFoundException{
-///Georgs Test
+
 		//////////////////////////////////////////////////////////////////////////////
 		//1) READ INSTANCE (http://www.om-db.wi.tum.de/psplib/)
 
@@ -38,7 +38,7 @@ public class Test {
 		//////////////////////////////////////////////////////////////////////////////
 		//3) GENERATE NEW INDIVIDUALS BY MUTATION
 
-		for(int g=0;g<10000000;g++){
+		for(int g=0;g<50000;g++){
 			Individual c = new Individual();//generate an individual
 			c.reproduce(s);					//calculate a clone of s
 			c.mutate(jobs);					//mutate the individual c
