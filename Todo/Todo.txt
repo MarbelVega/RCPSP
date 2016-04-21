@@ -1,3 +1,7 @@
 1. Save a pool of solutions (not only the last)
-2. Introduce a Crossover
-3. Create a selection process for crossover
+2. Introduce a Crossover (1-point for example)
+3. Create a selection process for crossover (rank for example)
+4. Calculate the critical path (solution without unlimited ressources)
+5. Read all 600 Files 50000 times
+6. Calculate the deviation from the critical path
+7. Generate the average over all 600 deviation
