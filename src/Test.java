@@ -13,8 +13,8 @@ public class Test {
 
  
 		
-		Job[] jobs     = Job.read(new File("j1201_5.sm"));//best makespan=112
-		Resource[] res = Resource.read(new File("j1201_5.sm"));
+		Job[] jobs     = Job.read(new File("instances/j1201_5.sm"));//best makespan=112
+		Resource[] res = Resource.read(new File("instances/j1201_5.sm"));
 //		Job[] jobs     = Job.read(new File("j301_1.sm"));//optimum makespan=43
 //		Resource[] res = Resource.read(new File("j301_1.sm"));
 		for(int i = 0; i < jobs.length; i++){
