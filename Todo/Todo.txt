@@ -10,9 +10,12 @@ TASK C
 3. Create a selection process for crossover (rank for example)
 
 TASK D
-4. Calculate the critical path (solution without unlimited ressources)
+8. Find alternatives for mutation after Crossover
 
 TASK E
+4. Calculate the critical path (solution without unlimited ressources)
+
+TASK F
 5. Read all 600 Files and create 50000 individual
 6. Calculate the deviation from the critical path (current makespan/critical path)
 7. Generate the average over all 600 deviation
