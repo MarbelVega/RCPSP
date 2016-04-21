@@ -1,7 +1,18 @@
+TASK A
 1. Save a pool of solutions (not only the last)
+- New class with a individuals collection
+- Create a serialize-Method in individuals returning the schedule-String (solution-ID)
+
+TASK B
 2. Introduce a Crossover (1-point for example)
+
+TASK C
 3. Create a selection process for crossover (rank for example)
+
+TASK D
 4. Calculate the critical path (solution without unlimited ressources)
+
+TASK E
 5. Read all 600 Files and create 50000 individual
 6. Calculate the deviation from the critical path (current makespan/critical path)
 7. Generate the average over all 600 deviation
