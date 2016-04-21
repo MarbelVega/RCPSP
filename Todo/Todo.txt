@@ -1,0 +1,3 @@
+1. Save a pool of solutions (not only the last)
+2. Introduce a Crossover
+3. Create a selection process for crossover

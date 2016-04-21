@@ -5,9 +5,6 @@ public class Individual {
 	int[] jobListe;//genotype
 	int[] schedule;//phänotype
 	
-	//Testline Marc
-//	Testline Dominik
-	
 	//example of the data structure:
 	//jobListe: 1 3 6 2 4 5 7  ; that means, jobs should schedule by the order 1,3,...,7; the Jobs 1 and 7 are the dummy jobs
 	//schedule: 0 0 0 1 2 4 6  ; that means, that job with number 6 starts at time 0; that job with number 4 starts at time 2; that dummy job with number 7 starts at time 6 which also means, that the project is finished 
