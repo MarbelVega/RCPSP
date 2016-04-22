@@ -25,6 +25,7 @@ public class Job {
 	// verwendeteResourcen[2] --> capacities of resource R3
 	// verwendeteResourcen[3] --> capacities of resource R4
 	int[] verwendeteResourcen;
+//	Set capacities to maximum to get critical value
 	
 	
 	
