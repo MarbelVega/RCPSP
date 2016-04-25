@@ -146,6 +146,17 @@ public class Individual {
 		return schedule[schedule.length-1];
 	}
 	
+	public String getUniqueOrderId(){
+		//return the joborder as a String to create a unique  ID
+		String tmpString = "";		
+		
+		for(int k = 0; k < jobListe.length; k++){
+			tmpString += jobListe[k];
+		}
+		
+		return tmpString;
+	}
+	
 	public int earliestPossibleStarttime(Job j, Job[] jobs){
 		// calculate the time, when all successors of j have been finished
 		

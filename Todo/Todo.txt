@@ -13,7 +13,7 @@ TASK D
 8. Find alternatives for mutation after Crossover
 
 TASK E
-4. Calculate the critical path (solution without unlimited ressources)
+4. Calculate the critical path (solution with unlimited resources)
 
 TASK F
 5. Read all 600 Files and create 50000 individual
