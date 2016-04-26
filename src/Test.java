@@ -13,10 +13,10 @@ public class Test {
 
  
 		
-	//	Job[] jobs     = Job.read(new File("instances/j1201_5.sm"));//best makespan=112
-	//	Resource[] res = Resource.read(new File("instances/j1201_5.sm"));
-		Job[] jobs     = Job.read(new File("instances/j301_1.sm"));//optimum makespan=43
-		Resource[] res = Resource.read(new File("instances/j301_1.sm"));
+		Job[] jobs     = Job.read(new File("instances/j1201_5.sm"));//best makespan=112
+		Resource[] res = Resource.read(new File("instances/j1201_5.sm"));
+	//	Job[] jobs     = Job.read(new File("instances/j301_1.sm"));//optimum makespan=43
+	//	Resource[] res = Resource.read(new File("instances/j301_1.sm"));
 		for(int i = 0; i < jobs.length; i++){
 			jobs[i].calculatePredecessors(jobs);
 		}
@@ -33,13 +33,12 @@ public class Test {
 		System.out.println("Fitness (=makespan): " + s.getFitness());
 		
 		Population pop = new Population();
-		pop.addIndividual(s);
-		
+	
 		
 		//////////////////////////////////////////////////////////////////////////////
 		//3) GENERATE NEW INDIVIDUALS BY MUTATION
 
-		for(int g=0;g<500000;g++){
+		for(int g=0;g<50000;g++){
 			Individual c = new Individual();//generate an individual
 			c.reproduce(s);					//calculate a clone of s
 			c.mutate(jobs);					//mutate the individual c

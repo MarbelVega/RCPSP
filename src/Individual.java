@@ -150,8 +150,13 @@ public class Individual {
 		//return the joborder as a String to create a unique  ID
 		String tmpString = "";		
 		
-		for(int k = 0; k < jobListe.length; k++){
-			tmpString += jobListe[k];
+		for(int k = 0; k < schedule.length; k++){
+			for(int i = 0; i < schedule.length; i++){
+				if (k == schedule[i]) {
+					tmpString += jobListe[i];
+				}
+			}
+			
 		}
 		
 		return tmpString;
