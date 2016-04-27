@@ -46,7 +46,7 @@ public class Test {
 			
 			pop.addIndividual(c);
 			System.out.println("cycles: " + pop.getCycles() + " - population: " + pop.getPopulationSize());
-			System.out.println("UID:" + c.getUniqueOrderId());
+			//System.out.println("UID:" + c.getUniqueOrderId());
 			
 			if(c.getFitness() <= s.getFitness()){
 				//REPLACE BEST INDIVIDUAL

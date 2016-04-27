@@ -152,8 +152,10 @@ public class Individual {
 		
 		for(int k = 0; k < schedule.length; k++){
 			for(int i = 0; i < schedule.length; i++){
-				if (k == schedule[i]) {
-					tmpString += jobListe[i];
+				for(int j = 0; j < jobListe.length; j++){
+					if (k == schedule[i] && j == jobListe[i]) {
+						tmpString += jobListe[i];
+					}
 				}
 			}
 			
