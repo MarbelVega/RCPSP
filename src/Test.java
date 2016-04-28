@@ -15,7 +15,7 @@ public class Test {
 		File folder = new File("instances");
 		File[] listOfFiles = folder.listFiles();
 		
-	    FileWriter fw = new FileWriter("ausgabe.txt");
+	    FileWriter fw = new FileWriter("ausgabe.csv");
 	    BufferedWriter bw = new BufferedWriter(fw);
 	    
 //		Iterate over all files in the folder
@@ -23,10 +23,10 @@ public class Test {
 //			Calculate solution for problem insatnce
 			System.out.println("Starting file "+file.getPath());
 			Solution solution = Test.processOneInstance(file.getPath());	
-			String output = "File name: "+file.getPath()+" - Fitness: " +solution.getFitness() + " - Critical path: "+solution.getCriticalPath() + " - Deviation: "+solution.getDeviation();
-			System.out.println(output);
+			String output = "File_name;"+file.getPath()+";Fitness;" + solution.getFitness() + ";Critical_path;"+solution.getCriticalPath() + ";Deviation;"+solution.getDeviation();
+			System.out.println(output+"\n");
 		   
-			bw.write(output);
+			bw.write(output+"\n");
 
 			averageDeviation = averageDeviation + solution.getDeviation();
 			numberOfSolutions++;
@@ -60,7 +60,7 @@ public class Test {
 		Individual firstMother = new Individual();// generate an individual
 		firstMother.initializeJobList(jobs); // initialize genotype of the individual
 		firstMother.decodeJobList(jobs, res); // decoding of the individual
-		System.out.println("Fitness (=makespan): " + firstMother.getFitness());
+		//System.out.println("Fitness start point (=makespan): " + firstMother.getFitness());
 
 		Population population = new Population();
 		population.addIndividual(firstMother);
