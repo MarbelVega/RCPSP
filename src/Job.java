@@ -83,15 +83,19 @@ public class Job {
         }
 
 	}
-	public static Job[] read(File file) throws FileNotFoundException {
-		
+	public static Job[] read(File file) throws FileNotFoundException {		
 		Scanner scanner = new Scanner(file);
 		Job[] jobs = new Job[0];
 		int index = 0;
 		
+		//successors example:
+		//1 2 3 4
+		//2 4 6 7
+		//5 6 9
+		//  8
 		ArrayList<ArrayList<Integer>> successors = new ArrayList<ArrayList<Integer>>();	
 		boolean startJob = false;
-		
+
 		while(scanner.hasNext()) {
 			String nextLine = scanner.nextLine();
 			if(nextLine.equals("")){
@@ -122,7 +126,7 @@ public class Job {
 					lineScanner.next();
 					if (lineScanner.hasNext()) {
 						lineScanner.next();
-						while (lineScanner.hasNext()) {
+						while (lineScanner.hasNext()) { 
 							int suc = Integer.valueOf(lineScanner.next());
 							successors.get(index).add(suc);								
 						}	

@@ -1,97 +1,125 @@
 
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 
 public class Test {
-	
-	public static void main (String[] args) throws FileNotFoundException{
 
-		//////////////////////////////////////////////////////////////////////////////
-		//1) READ INSTANCE (http://www.om-db.wi.tum.de/psplib/)
-
- 
+	public static void main(String[] args) throws FileNotFoundException {
 		
-		Job[] jobs     = Job.read(new File("instances/j1201_5.sm"));//best makespan=112
+		double averageDeviation = 0;
+		//Dominik:
+		// Get the folder with instances
+		// make an list with instances
+
+		// loop through list of instances:
+		while (false) {
+			//implement returnstatement for processOneInstance
+			//gestalte die Solutionclasse
+			Solution solution = Test.processOneInstance(fileName);			
+			System.out.println(solution.fittest?);
+			System.out.println(solution.criticalPathfittness?);
+			System.out.println(solution.deviationOfFittestAndCriticalPath?);	
+			averageDeviation = averageDeviation + solution.something;
+		}
+		System.out.println(averageDeviation);
+	}
+
+	private static Solution processOneInstance(String fileName) throws FileNotFoundException {
+		//////////////////////////////////////////////////////////////////////////////
+		// 1) READ INSTANCE (http://www.om-db.wi.tum.de/psplib/)
+		Job[] jobs = Job.read(new File("instances/j1201_5.sm"));// best makespan=112
 		Resource[] res = Resource.read(new File("instances/j1201_5.sm"));
-	//	Job[] jobs     = Job.read(new File("instances/j301_1.sm"));//optimum makespan=43
-	//	Resource[] res = Resource.read(new File("instances/j301_1.sm"));
-		for(int i = 0; i < jobs.length; i++){
+		Solution solution = new Solution();
+		Resource[] criticalPathRessouce = res.clone();
+
+		
+		
+		// Job[] jobs = Job.read(new File("instances/j301_1.sm"));//optimum makespan=43
+		// Resource[] res = Resource.read(new File("instances/j301_1.sm"));
+		for (int i = 0; i < jobs.length; i++) {
 			jobs[i].calculatePredecessors(jobs);
 		}
 		
-		
-		
-		
-		//////////////////////////////////////////////////////////////////////////////
-		//2) INITIALIZE BEST INDIVIDUAL S
-		
-		Individual s = new Individual();//generate an individual
-		s.initializeJobList(jobs);		//initialize genotype of the individual
-		s.decodeJobList(jobs, res);		//decoding of the individual
-		System.out.println("Fitness (=makespan): " + s.getFitness());
-		
-		Population pop = new Population();
-	
-		
-		//////////////////////////////////////////////////////////////////////////////
-		//3) GENERATE NEW INDIVIDUALS BY MUTATION
+		//Georg
+		//Initialize the critical Path:
+		//iterate over criticalPathRessouce set ressouces to maxInt
+		//create new individual and decode with criticalPathressouce
 
-		for(int g=0;g<50000;g++){
-			Individual c = new Individual();//generate an individual
-			c.reproduce(s);					//calculate a clone of s
-			c.mutate(jobs);					//mutate the individual c
-			c.decodeJobList(jobs, res);		//decoding of the individual c
-			
-			pop.addIndividual(c);
-			System.out.println("cycles: " + pop.getCycles() + " - population: " + pop.getPopulationSize());
-			//System.out.println("UID:" + c.getUniqueOrderId());
-			
-			if(c.getFitness() <= s.getFitness()){
-				//REPLACE BEST INDIVIDUAL
-				System.out.println(g + " new fitness (=makespan): " + c.getFitness());
-				s = new Individual();			//generate a new best individual
-				s.reproduce(c);					//calculate a clone of c
-				s.decodeJobList(jobs, res);		//decoding of the individual s
+		//////////////////////////////////////////////////////////////////////////////
+		// 2) INITIALIZE BEST INDIVIDUAL S
+		Individual firstMother = new Individual();// generate an individual
+		firstMother.initializeJobList(jobs); // initialize genotype of the individual
+		firstMother.decodeJobList(jobs, res); // decoding of the individual
+		System.out.println("Fitness (=makespan): " + firstMother.getFitness());
+
+		Population population = new Population();
+		population.addIndividual(firstMother);
+		Individual firstFather = new Individual();// generate an individual
+		firstFather.reproduce(firstMother);
+		firstFather.mutate(jobs);
+		firstFather.decodeJobList(jobs, res);
+
+		population.addIndividual(firstFather);
+		Evolution evolution = new Evolution();
+
+		//////////////////////////////////////////////////////////////////////////////
+		// 3) GENERATE NEW INDIVIDUALS BY MUTATION
+		while (population.getCycles() <= 50000) {
+			// this must be impl. in evolution Class:
+			// = new ArrayList<Individual>();
+			// Individual firstChild = new Individual();
+			// Individual secondChild = new Individual();
+			// children.add(firstChild);
+			// children.add(secondChild);
+
+			ArrayList<Individual> pickedParents = evolution.getRankedIndividuals(population); //random pick of two but weighed with fitness //Marc
+			ArrayList<Individual> crossoveredChildren = evolution.crossover(pickedParents.get(0), pickedParents.get(1)); //crossover the joblists of them //Patrick
+			ArrayList<Individual> crossoveredAndMutatedChildren = evolution.mutate(crossoveredChildren); //take it from individual and put into evolution //Georg
+
+			for (Individual child : crossoveredAndMutatedChildren) {
+				child.decodeJobList(jobs, res);
+				population.addIndividual(child);
 			}
+
+			System.out.println("Fittest Individual: " + population.getFittest().getFitness());
+
+			// impl modulo function to output not in every iteration //Georg
+			System.out.println("cycles: " + population.getCycles() + " - population: " + population.getPopulationSize());
 		}
-		
-		
-		
+		return null;
 	}
-	
-	
-	
-	
+
 	///////////////////////////////////////////////////////////////////////////////////////////////
-	//next methods are only for checking the data, which has been read from the input files
-	
+	// next methods are only for checking the data, which has been read from the
+	/////////////////////////////////////////////////////////////////////////////////////////////// input
+	/////////////////////////////////////////////////////////////////////////////////////////////// files
+
 	private static void auslesen(Job[] jobs) {
-		for (int i = 0; i < jobs.length; i++){
-			System.out.print("Nummer: " + jobs[i].nummer()+"     |    ");
+		for (int i = 0; i < jobs.length; i++) {
+			System.out.print("Nummer: " + jobs[i].nummer() + "     |    ");
 			System.out.print("Nachfolger: ");
 			ArrayList<Integer> nachfolger = jobs[i].nachfolger();
-			for(int j = 0; j < nachfolger.size(); j++){
-				System.out.print(" " + nachfolger.get(j) +" ");
-				
+			for (int j = 0; j < nachfolger.size(); j++) {
+				System.out.print(" " + nachfolger.get(j) + " ");
+
 			}
 			System.out.print(" Vorgaenger: ");
 			ArrayList<Integer> vorgaenger = jobs[i].vorgaenger();
-			for(int j = 0; j < vorgaenger.size(); j++){
-				System.out.print(" " + vorgaenger.get(j) +" ");
-				
+			for (int j = 0; j < vorgaenger.size(); j++) {
+				System.out.print(" " + vorgaenger.get(j) + " ");
+
 			}
 			System.out.print("     |    ");
 			System.out.print("Dauer: " + jobs[i].dauer() + "     |    ");
-			System.out.println("R1: " + jobs[i].verwendeteResource(0) +  "  R2: " + jobs[i].verwendeteResource(1) + 
-					"  R3: " + jobs[i].verwendeteResource(2) + "  R4: " + jobs[i].verwendeteResource(3));
+			System.out.println("R1: " + jobs[i].verwendeteResource(0) + "  R2: " + jobs[i].verwendeteResource(1)
+					+ "  R3: " + jobs[i].verwendeteResource(2) + "  R4: " + jobs[i].verwendeteResource(3));
 		}
 	}
-	
+
 	private static void auslesen(Resource[] resource) {
-		for (int i = 0; i < resource.length; i++){
-			System.out.print("Resource: " + resource[i].nummer()+"     |    ");
+		for (int i = 0; i < resource.length; i++) {
+			System.out.print("Resource: " + resource[i].nummer() + "     |    ");
 			System.out.println("Verfügbarkeit: " + resource[i].maxVerfuegbarkeit());
 		}
 	}

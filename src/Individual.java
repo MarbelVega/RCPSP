@@ -45,10 +45,6 @@ public class Individual {
 		jobListe[pos2] = tmp;
 	}
 	
-	
-	
-	
-	
 	public void initializeJobList(Job[] jobs){
 		
 		ArrayList<Job> eligibleJobs = new ArrayList<Job>();
@@ -157,10 +153,8 @@ public class Individual {
 						tmpString += jobListe[i];
 					}
 				}
-			}
-			
-		}
-		
+			}			
+		}		
 		return tmpString;
 	}
 	

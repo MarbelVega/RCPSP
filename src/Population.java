@@ -1,8 +1,10 @@
+import java.util.ArrayList;
 import java.util.HashMap;
 
 public class Population {
-
-	private HashMap<String,Individual> pop = new HashMap<String,Individual>();
+	ArrayList<Individual> individuals = new ArrayList<Individual>();
+	
+	//private HashMap<String,Individual> pop = new HashMap<String,Individual>();
 	private int cycles = 0;
 	
 	public int getCycles() {
@@ -10,12 +12,17 @@ public class Population {
 	}
 	
 	public int getPopulationSize() {
-		return pop.size();
+		return individuals.size();
 	}
 	
 	public void addIndividual(Individual s) {
-		pop.put(s.getUniqueOrderId(), s);
+		individuals.put(s.getUniqueOrderId(), s);
 		cycles++;
+	}
+
+	public Individual getFittest() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 	
 }
