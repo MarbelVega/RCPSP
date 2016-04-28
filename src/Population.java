@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.HashMap;
 
 public class Population {
 	ArrayList<Individual> individuals = new ArrayList<Individual>();
@@ -16,13 +15,33 @@ public class Population {
 	}
 	
 	public void addIndividual(Individual s) {
-		individuals.put(s.getUniqueOrderId(), s);
+		boolean isNew = true;
+		
+		for (Individual i : individuals) {
+			if (i.getUniqueOrderId() == s.getUniqueOrderId()) {
+				isNew = false;
+			}
+		}
+		if (isNew == true) {
+			individuals.add(s);
+		}
 		cycles++;
 	}
 
 	public Individual getFittest() {
-		// TODO Auto-generated method stub
-		return null;
+		
+		int maxFitness = 0;
+		Individual bestIndiviual = null;
+		
+		for (Individual i : individuals) {
+			int fitness = i.getFitness();
+			if (fitness > maxFitness) {
+				bestIndiviual = i;
+				maxFitness = fitness;
+			}
+		}
+		
+		return bestIndiviual;
 	}
 	
 }
