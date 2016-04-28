@@ -18,23 +18,11 @@ public class Evolution {
 			throw new InvalidAttributesException("Something wrong with Individuals. Number of job items doesn't match.");
 		}
 		
-		/**
-			Crossover in the middle of parents: 
-			Son_Front -> Father_Front
-			Daughter_Front -> Mother_Front
-			Son_Back -> Mother_Back
-			Daughter_Back -> Father_Back
-		*/
-		
 		for(int i =0; i < length1; i++){
 			if (i <= length1/2){
 				son.jobListe[i] = father.jobListe[i];
 				daughter.jobListe[i] = mother.jobListe[i];
-			} else{
-				/**
-				 	Making sure that job numbers don't appear twice
-				 */
-					
+			} else{					
 				son.jobListe[i] = mother.jobListe[i];
 				daughter.jobListe[i] = father.jobListe[i];
 			}
@@ -80,6 +68,7 @@ public class Evolution {
 		//Parent 1
 		rankedIndividuals.add(getRankedParent(SortedPopulation));
 		//Parent 2
+		// TODO: Iterate until Parent 1 != Parent 2
 		rankedIndividuals.add(getRankedParent(SortedPopulation));	
 		
 		return rankedIndividuals;

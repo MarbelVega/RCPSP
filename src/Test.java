@@ -34,7 +34,7 @@ public class Test {
 		Job[] jobs = Job.read(new File(fileName));// best makespan=112
 		Resource[] res = Resource.read(new File(fileName));
 		Solution solution = new Solution();
-		Resource[] criticalPathRessouce = res.clone();		
+		Resource[] criticalPathRessouce = Resource.read(new File(fileName));	
 		Resource.maximizeResources(criticalPathRessouce);		
 		
 		for (int i = 0; i < jobs.length; i++) {
