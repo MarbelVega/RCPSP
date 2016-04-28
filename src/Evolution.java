@@ -33,5 +33,12 @@ public class Evolution {
 		// TODO Auto-generated method stub
 		return null;
 	}
+	
+	public ArrayList<Individual> mutate(Job[] jobs, ArrayList<Individual> individuals){
+		for (Individual individual : individuals) {
+			individual.mutate(jobs);
+		}
+		return individuals;
+	}
 
 }
