@@ -34,21 +34,18 @@ public class Test {
 		Job[] jobs = Job.read(new File(fileName));// best makespan=112
 		Resource[] res = Resource.read(new File(fileName));
 		Solution solution = new Solution();
-		Resource[] criticalPathRessouce = res.clone();
-
+		Resource[] criticalPathRessouce = res.clone();		
+		Resource.maximizeResources(criticalPathRessouce);		
 		
-		
-		// Job[] jobs = Job.read(new File("instances/j301_1.sm"));//optimum makespan=43
-		// Resource[] res = Resource.read(new File("instances/j301_1.sm"));
 		for (int i = 0; i < jobs.length; i++) {
 			jobs[i].calculatePredecessors(jobs);
 		}
 		
-		//Georg
-		//Initialize the critical Path:
-		//iterate over criticalPathRessouce set ressouces to maxInt
-		//create new individual and decode with criticalPathressouce
-//		TODO set criticalPath in solution
+		//Calculating critical Path
+		Individual criticalPathIndividual = new Individual();
+		criticalPathIndividual.initializeJobList(jobs);
+		criticalPathIndividual.decodeJobList(jobs, criticalPathRessouce);
+		solution.setCriticalPathFitness(criticalPathIndividual.getFitness());
 
 		//////////////////////////////////////////////////////////////////////////////
 		// 2) INITIALIZE BEST INDIVIDUAL S
@@ -70,13 +67,6 @@ public class Test {
 		//////////////////////////////////////////////////////////////////////////////
 		// 3) GENERATE NEW INDIVIDUALS BY MUTATION
 		while (population.getCycles() <= 50000) {
-			// this must be impl. in evolution Class:
-			// = new ArrayList<Individual>();
-			// Individual firstChild = new Individual();
-			// Individual secondChild = new Individual();
-			// children.add(firstChild);
-			// children.add(secondChild);
-
 			ArrayList<Individual> pickedParents = evolution.getRankedIndividuals(population); //random pick of two but weighed with fitness //Marc
 			ArrayList<Individual> crossoveredChildren = evolution.crossover(pickedParents.get(0), pickedParents.get(1)); //crossover the joblists of them //Patrick
 			ArrayList<Individual> crossoveredAndMutatedChildren = evolution.mutate(crossoveredChildren); //take it from individual and put into evolution //Georg
@@ -85,11 +75,12 @@ public class Test {
 				child.decodeJobList(jobs, res);
 				population.addIndividual(child);
 			}
-
 			System.out.println("Fittest Individual: " + population.getFittest().getFitness());
-
-			// impl modulo function to output not in every iteration //Georg
-			System.out.println("cycles: " + population.getCycles() + " - population: " + population.getPopulationSize());
+			if(population.getCycles() % 1000 == 0){
+				System.out.println("///////////////////////////////////////////////////////////////////////////////////////");
+				System.out.println("cycles: " + population.getCycles() + " - population: " + population.getPopulationSize());
+				System.out.println("///////////////////////////////////////////////////////////////////////////////////////");
+			}
 		}
 		Individual bestIndividual = population.getFittest();
 		solution.setFitness(bestIndividual.getFitness());

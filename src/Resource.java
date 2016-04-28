@@ -20,6 +20,10 @@ public class Resource {
 		return maxVerfuegbarkeit;
 	}
 	
+	public void setMaxVerfuegbarkeit(int value){
+		this.maxVerfuegbarkeit = value;
+	}
+	
 	public int nummer(){
 		return nummer;
 	}
@@ -55,5 +59,11 @@ public class Resource {
 			}
 		}
 		return resources;
+	}
+
+	public static void maximizeResources(Resource[] criticalPathRessouce) {
+		for (Resource resource : criticalPathRessouce) {
+			resource.setMaxVerfuegbarkeit(Integer.MAX_VALUE);
+		}
 	}
 }
