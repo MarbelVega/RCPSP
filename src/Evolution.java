@@ -65,11 +65,20 @@ public class Evolution {
 		
 		ArrayList<Individual> SortedPopulation = population.getIndividuals();
 		
+		Individual selectedIndividual = null;
+		String parentUID = "";
+		
+		
 		//Parent 1
-		rankedIndividuals.add(getRankedParent(SortedPopulation));
+		selectedIndividual = getRankedParent(SortedPopulation);
+		rankedIndividuals.add(selectedIndividual);
+		parentUID = selectedIndividual.getUniqueOrderId();
+		
 		//Parent 2
-		// TODO: Iterate until Parent 1 != Parent 2
-		rankedIndividuals.add(getRankedParent(SortedPopulation));	
+		while (parentUID.compareTo(selectedIndividual.getUniqueOrderId()) == 0){
+			selectedIndividual = getRankedParent(SortedPopulation);
+		}
+		rankedIndividuals.add(selectedIndividual);	
 		
 		return rankedIndividuals;
 	}

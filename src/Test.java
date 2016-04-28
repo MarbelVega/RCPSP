@@ -58,10 +58,14 @@ public class Test {
 		population.addIndividual(firstMother);
 		Individual firstFather = new Individual();// generate an individual
 		firstFather.reproduce(firstMother);
-		firstFather.mutate(jobs);
-		firstFather.decodeJobList(jobs, res);
-
-		population.addIndividual(firstFather);
+		
+		boolean isNewParent = false;
+		while (isNewParent == false) {
+			firstFather.mutate(jobs);
+			firstFather.decodeJobList(jobs, res);
+			isNewParent = population.addIndividual(firstFather);
+		}
+		
 		Evolution evolution = new Evolution();
 
 		//////////////////////////////////////////////////////////////////////////////

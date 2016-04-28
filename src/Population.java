@@ -15,11 +15,12 @@ public class Population {
 		return individuals.size();
 	}
 	
-	public void addIndividual(Individual s) {
+	public boolean addIndividual(Individual s) {
 		boolean isNew = true;
 		
 		for (Individual i : individuals) {
-			if (i.getUniqueOrderId() == s.getUniqueOrderId()) {
+			String tmpUID = i.getUniqueOrderId();
+			if (tmpUID.compareTo(s.getUniqueOrderId()) == 0) {
 				isNew = false;
 			}
 		}
@@ -27,6 +28,7 @@ public class Population {
 			individuals.add(s);
 		}
 		cycles++;
+		return isNew;
 	}
 
 	public Individual getFittest() {

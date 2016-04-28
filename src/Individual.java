@@ -19,7 +19,8 @@ public class Individual implements Comparable<Individual>{
 		jobListe = new int[elter.jobListe.length];
 		for(int i=0; i<jobListe.length; i++){
 			jobListe[i] = elter.jobListe[i];
-		}		
+		}
+		resetInidividual();
 	}
 	
 	public void mutate(Job[] jobs){
@@ -46,6 +47,7 @@ public class Individual implements Comparable<Individual>{
 		int tmp = jobListe[pos1];
 		jobListe[pos1] = jobListe[pos2];
 		jobListe[pos2] = tmp;
+		resetInidividual();
 	}
 	
 	public void initializeJobList(Job[] jobs){
@@ -101,6 +103,8 @@ public class Individual implements Comparable<Individual>{
 				}
 			}
 		}
+		resetInidividual();
+		
 	}
 
 	public void decodeJobList(Job[] jobs, Resource[] res){
@@ -147,7 +151,7 @@ public class Individual implements Comparable<Individual>{
 		return schedule[schedule.length-1];
 	}
 	
-	public String getUniqueOrderId() {
+	public String getUniqueOrderId(){
 		//return the joborder as a String to create a unique  ID
 		
 		if (wasDecoded == true) {
@@ -157,7 +161,7 @@ public class Individual implements Comparable<Individual>{
 					for(int i = 0; i < schedule.length; i++){
 						for(int j = 0; j < jobListe.length; j++){
 							if (k == schedule[i] && j == jobListe[i]) {
-								tmpString += jobListe[i];
+								tmpString += "_" + jobListe[i];
 							}
 						}
 					}			
@@ -167,7 +171,7 @@ public class Individual implements Comparable<Individual>{
 		}
 		else
 		{
-			System.out.println( "Error: Inidivual was not decoded" );
+			throw new RuntimeException("Error: Inidivual was not decoded");
 		}
 		return UniqueOrderId;
 	}
@@ -223,6 +227,11 @@ public class Individual implements Comparable<Individual>{
 				resTab[k][i] -= verwendeteResourcen[k];
 			}
 		}
+	}
+	
+	public void resetInidividual() {
+		UniqueOrderId = null;
+		wasDecoded = false;
 	}
 
 	@Override
