@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Individual {
+public class Individual implements Comparable<Individual>{
 
 	int[] jobListe;//genotype
 	int[] schedule;//phänotype
@@ -223,6 +223,20 @@ public class Individual {
 				resTab[k][i] -= verwendeteResourcen[k];
 			}
 		}
+	}
+
+	@Override
+	public int compareTo(Individual otherIndividual) {
+		
+		if (this.getFitness() < otherIndividual.getFitness()) {
+	        return -1;
+	    }
+	    else if(this.getFitness() > otherIndividual.getFitness()){
+	        return 1;
+	    }
+
+	    return 0;
+		
 	}
 		
 }
