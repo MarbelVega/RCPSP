@@ -14,6 +14,9 @@ public class Evolution {
 		int length1 = father.jobListe.length;
 		int length2 = mother.jobListe.length;
 
+		son.jobListe = new int[length1];
+		daughter.jobListe = new int[length1];
+		
 		if(length1 != length2){
 			throw new InvalidAttributesException("Something wrong with Individuals. Number of job items doesn't match.");
 		}
@@ -37,11 +40,11 @@ public class Evolution {
 	
 	public void normalizeChild(Individual child, Individual parent, int normalizeFrom, int normalizeTo, int validFrom, int validTo){
 		ArrayList<Integer> validPartOfChildJobListe = new ArrayList<Integer>();
-		for(int j = validFrom; j <= validTo; j++){
+		for(int j = validFrom; j < validTo; j++){
 			validPartOfChildJobListe.add(child.jobListe[j]);
 		}
 
-		for(int i = normalizeFrom; i <= normalizeTo; i++){
+		for(int i = normalizeFrom; i < normalizeTo; i++){
 			//check in part that needs to be normalized if valid part of job list already has that value
 			int possiblyInvalidEntry = child.jobListe[i];
 			if (validPartOfChildJobListe.contains(possiblyInvalidEntry)){ 
