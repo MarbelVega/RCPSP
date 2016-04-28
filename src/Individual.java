@@ -156,7 +156,7 @@ public class Individual implements Comparable<Individual>{
 		
 		if (wasDecoded == true) {
 			if (UniqueOrderId == null) {
-				String tmpString = "";
+				String tmpString = this.getFitness() +"";
 				for(int k = 0; k < schedule.length; k++){
 					for(int i = 0; i < schedule.length; i++){
 						for(int j = 0; j < jobListe.length; j++){
@@ -238,10 +238,10 @@ public class Individual implements Comparable<Individual>{
 	public int compareTo(Individual otherIndividual) {
 		
 		if (this.getFitness() < otherIndividual.getFitness()) {
-	        return 1;
+	        return -1;
 	    }
 	    else if(this.getFitness() > otherIndividual.getFitness()){
-	        return -1;
+	        return 1;
 	    }
 
 	    return 0;

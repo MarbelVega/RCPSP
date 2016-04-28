@@ -61,7 +61,10 @@ public class Test {
 		
 		boolean isNewParent = false;
 		while (isNewParent == false) {
-			firstFather.mutate(jobs);
+			for (int i = 0; i < 20; i++) {
+				firstFather.mutate(jobs);	
+			}
+			
 			firstFather.decodeJobList(jobs, res);
 			isNewParent = population.addIndividual(firstFather);
 		}
@@ -79,11 +82,8 @@ public class Test {
 				child.decodeJobList(jobs, res);
 				population.addIndividual(child);
 			}
-			System.out.println("Fittest Individual: " + population.getFittest().getFitness());
-			if(population.getCycles() % 1000 == 0){
-				System.out.println("///////////////////////////////////////////////////////////////////////////////////////");
-				System.out.println("cycles: " + population.getCycles() + " - population: " + population.getPopulationSize());
-				System.out.println("///////////////////////////////////////////////////////////////////////////////////////");
+			if(population.getCycles() % 500 == 0){
+				System.out.println("Cycles: " + population.getCycles() + " - Population: " + population.getPopulationSize() + " - Fittest Individual: " + population.getFittest().getFitness());
 			}
 		}
 		Individual bestIndividual = population.getFittest();

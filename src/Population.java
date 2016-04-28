@@ -33,14 +33,14 @@ public class Population {
 
 	public Individual getFittest() {
 		
-		int maxFitness = 0;
+		int minFitness = Integer.MAX_VALUE;
 		Individual bestIndiviual = null;
 		
 		for (Individual i : individuals) {
 			int fitness = i.getFitness();
-			if (fitness > maxFitness) {
+			if (fitness < minFitness) {
 				bestIndiviual = i;
-				maxFitness = fitness;
+				minFitness = fitness;
 			}
 		}
 		
