@@ -1,6 +1,8 @@
 
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileWriter;
 import java.util.ArrayList;
 
 public class Test {
@@ -12,18 +14,24 @@ public class Test {
 		
 		File folder = new File("instances");
 		File[] listOfFiles = folder.listFiles();
-
+		
+	    FileWriter fw = new FileWriter("ausgabe.txt");
+	    BufferedWriter bw = new BufferedWriter(fw);
+	    
 //		Iterate over all files in the folder
 		for (File file : listOfFiles) {
 //			Calculate solution for problem insatnce
-			Solution solution = Test.processOneInstance(file.getPath());			
-			System.out.println(solution.getFitness());
-			System.out.println(solution.getCriticalPath());
-			System.out.println(solution.getDeviation());	
+			System.out.println("Starting file "+file.getPath());
+			Solution solution = Test.processOneInstance(file.getPath());	
+			String output = "File name: "+file.getPath()+" - Fitness: " +solution.getFitness() + " - Critical path: "+solution.getCriticalPath() + " - Deviation: "+solution.getDeviation();
+			System.out.println(output);
+		   
+			bw.write(output);
 
 			averageDeviation = averageDeviation + solution.getDeviation();
 			numberOfSolutions++;
 		}
+		bw.close();
 		
 		System.out.println((double)averageDeviation / numberOfSolutions);
 	}
