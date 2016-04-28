@@ -229,10 +229,10 @@ public class Individual implements Comparable<Individual>{
 	public int compareTo(Individual otherIndividual) {
 		
 		if (this.getFitness() < otherIndividual.getFitness()) {
-	        return -1;
+	        return 1;
 	    }
 	    else if(this.getFitness() > otherIndividual.getFitness()){
-	        return 1;
+	        return -1;
 	    }
 
 	    return 0;
