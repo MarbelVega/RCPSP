@@ -8,28 +8,31 @@ public class Test {
 	public static void main(String[] args) throws FileNotFoundException {
 		
 		double averageDeviation = 0;
-		//Dominik:
-		// Get the folder with instances
-		// make an list with instances
+		int numberOfSolutions = 0;
+		
+		File folder = new File("instances");
+		File[] listOfFiles = folder.listFiles();
 
-		// loop through list of instances:
-		while (false) {
-			//implement returnstatement for processOneInstance
-			//gestalte die Solutionclasse
-			Solution solution = Test.processOneInstance(fileName);			
-			System.out.println(solution.fittest?);
-			System.out.println(solution.criticalPathfittness?);
-			System.out.println(solution.deviationOfFittestAndCriticalPath?);	
-			averageDeviation = averageDeviation + solution.something;
+//		Iterate over all files in the folder
+		for (File file : listOfFiles) {
+//			Calculate solution for problem insatnce
+			Solution solution = Test.processOneInstance(file.getPath());			
+			System.out.println(solution.getFitness());
+			System.out.println(solution.getCriticalPath());
+			System.out.println(solution.getDeviation());	
+
+			averageDeviation = averageDeviation + solution.getDeviation();
+			numberOfSolutions++;
 		}
-		System.out.println(averageDeviation);
+		
+		System.out.println(averageDeviation / numberOfSolutions);
 	}
 
 	private static Solution processOneInstance(String fileName) throws FileNotFoundException {
 		//////////////////////////////////////////////////////////////////////////////
 		// 1) READ INSTANCE (http://www.om-db.wi.tum.de/psplib/)
-		Job[] jobs = Job.read(new File("instances/j1201_5.sm"));// best makespan=112
-		Resource[] res = Resource.read(new File("instances/j1201_5.sm"));
+		Job[] jobs = Job.read(new File(fileName));// best makespan=112
+		Resource[] res = Resource.read(new File(fileName));
 		Solution solution = new Solution();
 		Resource[] criticalPathRessouce = res.clone();
 
@@ -45,6 +48,7 @@ public class Test {
 		//Initialize the critical Path:
 		//iterate over criticalPathRessouce set ressouces to maxInt
 		//create new individual and decode with criticalPathressouce
+//		TODO set criticalPath in solution
 
 		//////////////////////////////////////////////////////////////////////////////
 		// 2) INITIALIZE BEST INDIVIDUAL S
@@ -87,7 +91,9 @@ public class Test {
 			// impl modulo function to output not in every iteration //Georg
 			System.out.println("cycles: " + population.getCycles() + " - population: " + population.getPopulationSize());
 		}
-		return null;
+		Individual bestIndividual = population.getFittest();
+		solution.setFitness(bestIndividual.getFitness());
+		return solution;
 	}
 
 	///////////////////////////////////////////////////////////////////////////////////////////////
