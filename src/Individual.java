@@ -4,6 +4,9 @@ public class Individual {
 
 	int[] jobListe;//genotype
 	int[] schedule;//phänotype
+	private String UniqueOrderId = null;
+	private boolean wasDecoded = false;
+	
 	
 	//example of the data structure:
 	//jobListe: 1 3 6 2 4 5 7  ; that means, jobs should schedule by the order 1,3,...,7; the Jobs 1 and 7 are the dummy jobs
@@ -135,6 +138,8 @@ public class Individual {
 			schedule[i] = p2;
 		}
 		
+		wasDecoded = true;
+		
 	}
 	
 	public int getFitness(){
@@ -142,20 +147,29 @@ public class Individual {
 		return schedule[schedule.length-1];
 	}
 	
-	public String getUniqueOrderId(){
+	public String getUniqueOrderId() {
 		//return the joborder as a String to create a unique  ID
-		String tmpString = "";		
 		
-		for(int k = 0; k < schedule.length; k++){
-			for(int i = 0; i < schedule.length; i++){
-				for(int j = 0; j < jobListe.length; j++){
-					if (k == schedule[i] && j == jobListe[i]) {
-						tmpString += jobListe[i];
-					}
+		if (wasDecoded == true) {
+			if (UniqueOrderId == null) {
+				String tmpString = "";
+				for(int k = 0; k < schedule.length; k++){
+					for(int i = 0; i < schedule.length; i++){
+						for(int j = 0; j < jobListe.length; j++){
+							if (k == schedule[i] && j == jobListe[i]) {
+								tmpString += jobListe[i];
+							}
+						}
+					}			
 				}
-			}			
-		}		
-		return tmpString;
+				UniqueOrderId = tmpString;
+			}
+		}
+		else
+		{
+			System.out.println( "Error: Inidivual was not decoded" );
+		}
+		return UniqueOrderId;
 	}
 	
 	public int earliestPossibleStarttime(Job j, Job[] jobs){
