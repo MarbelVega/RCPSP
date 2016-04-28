@@ -15,8 +15,15 @@ public class Solution {
 		this.fitness = fitness;
 	}
 
+	/**
+	 * Calculate deviation. fitness and criticalPath have to be set before!
+	 * @return
+	 */
 	public double getDeviation() {
-		return (fitness - criticalPath) / criticalPath;
+		if (criticalPath == 0){
+			return 0.;
+		}
+		return (double)(fitness - criticalPath) / criticalPath;
 	}
 	
 	public int getFitness(){

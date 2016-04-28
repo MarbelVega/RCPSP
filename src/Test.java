@@ -9,37 +9,23 @@ public class Test {
 		
 		double averageDeviation = 0;
 		int numberOfSolutions = 0;
+		
 		File folder = new File("instances");
 		File[] listOfFiles = folder.listFiles();
 
+//		Iterate over all files in the folder
 		for (File file : listOfFiles) {
-			//implement returnstatement for processOneInstance
-			//gestalte die Solutionclasse
+//			Calculate solution for problem insatnce
 			Solution solution = Test.processOneInstance(file.getPath());			
 			System.out.println(solution.getFitness());
 			System.out.println(solution.getCriticalPath());
 			System.out.println(solution.getDeviation());	
+
 			averageDeviation = averageDeviation + solution.getDeviation();
 			numberOfSolutions++;
 		}
 		
 		System.out.println(averageDeviation / numberOfSolutions);
-
-		//Dominik:
-		// Get the folder with instances
-		// make an list with instances
-
-//		// loop through list of instances:
-//		while (false) {
-//			//implement returnstatement for processOneInstance
-//			//gestalte die Solutionclasse
-//			Solution solution = Test.processOneInstance(fileName);			
-//			System.out.println(solution.fittest?);
-//			System.out.println(solution.criticalPathfittness?);
-//			System.out.println(solution.deviationOfFittestAndCriticalPath?);	
-//			averageDeviation = averageDeviation + solution.something;
-//		}
-//		System.out.println(averageDeviation);
 	}
 
 	private static Solution processOneInstance(String fileName) throws FileNotFoundException {
