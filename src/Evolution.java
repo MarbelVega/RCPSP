@@ -50,8 +50,20 @@ public class Evolution {
 	}
 
 	public ArrayList<Individual> getRankedIndividuals(Population population) {
-		// TODO Auto-generated method stub
-		return null;
+		
+		ArrayList<Individual> rankedIndividuals = new ArrayList<Individual>();
+		
+		population.sort();
+		
+		ArrayList<Individual> SortedPopulation = population.getIndividuals();
+		
+		long sumRank = 0;
+		int Rank = 0;
+		for (Individual i : SortedPopulation) {
+
+		}
+		
+		return rankedIndividuals;
 	}
 	
 	public ArrayList<Individual> mutate(Job[] jobs, ArrayList<Individual> individuals){

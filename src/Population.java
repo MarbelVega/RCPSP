@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Population {
 	ArrayList<Individual> individuals = new ArrayList<Individual>();
@@ -42,6 +43,20 @@ public class Population {
 		}
 		
 		return bestIndiviual;
+	}
+		
+	public void sort() {		
+		Collections.sort(individuals);
+	}
+
+	public ArrayList<Individual> getIndividuals() {
+		ArrayList<Individual> copyArrayList = new ArrayList<Individual>();
+		
+		for (Individual i : individuals) {
+			copyArrayList.add(i);
+		}
+		
+		return copyArrayList;
 	}
 	
 }
