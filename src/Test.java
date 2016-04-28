@@ -25,7 +25,7 @@ public class Test {
 			numberOfSolutions++;
 		}
 		
-		System.out.println(averageDeviation / numberOfSolutions);
+		System.out.println((double)averageDeviation / numberOfSolutions);
 	}
 
 	private static Solution processOneInstance(String fileName) throws FileNotFoundException {
