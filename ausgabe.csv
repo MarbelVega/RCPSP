@@ -1,600 +1,90 @@
-File name;instances\j12010_1.sm;Fitness;151;Critical path;111;Deviation;0.36036036036036034
-File name;instances\j12010_10.sm;Fitness;80;Critical path;66;Deviation;0.21212121212121213
-File name;instances\j12010_2.sm;Fitness;107;Critical path;91;Deviation;0.17582417582417584
-File name;instances\j12010_3.sm;Fitness;119;Critical path;99;Deviation;0.20202020202020202
-File name;instances\j12010_4.sm;Fitness;119;Critical path;95;Deviation;0.25263157894736843
-File name;instances\j12010_5.sm;Fitness;134;Critical path;97;Deviation;0.38144329896907214
-File name;instances\j12010_6.sm;Fitness;97;Critical path;92;Deviation;0.05434782608695652
-File name;instances\j12010_7.sm;Fitness;105;Critical path;79;Deviation;0.3291139240506329
-File name;instances\j12010_8.sm;Fitness;143;Critical path;114;Deviation;0.2543859649122807
-File name;instances\j12010_9.sm;Fitness;94;Critical path;77;Deviation;0.22077922077922077
-File name;instances\j12011_1.sm;Fitness;254;Critical path;90;Deviation;1.8222222222222222
-File name;instances\j12011_10.sm;Fitness;259;Critical path;90;Deviation;1.8777777777777778
-File name;instances\j12011_2.sm;Fitness;217;Critical path;78;Deviation;1.7820512820512822
-File name;instances\j12011_3.sm;Fitness;283;Critical path;93;Deviation;2.043010752688172
-File name;instances\j12011_4.sm;Fitness;274;Critical path;96;Deviation;1.8541666666666667
-File name;instances\j12011_5.sm;Fitness;328;Critical path;97;Deviation;2.381443298969072
-File name;instances\j12011_6.sm;Fitness;309;Critical path;91;Deviation;2.3956043956043955
-File name;instances\j12011_7.sm;Fitness;231;Critical path;82;Deviation;1.8170731707317074
-File name;instances\j12011_8.sm;Fitness;221;Critical path;95;Deviation;1.3263157894736841
-File name;instances\j12011_9.sm;Fitness;252;Critical path;76;Deviation;2.3157894736842106
-File name;instances\j12012_1.sm;Fitness;195;Critical path;94;Deviation;1.074468085106383
-File name;instances\j12012_10.sm;Fitness;197;Critical path;84;Deviation;1.3452380952380953
-File name;instances\j12012_2.sm;Fitness;162;Critical path;72;Deviation;1.25
-File name;instances\j12012_3.sm;Fitness;191;Critical path;84;Deviation;1.2738095238095237
-File name;instances\j12012_4.sm;Fitness;189;Critical path;94;Deviation;1.0106382978723405
-File name;instances\j12012_5.sm;Fitness;240;Critical path;98;Deviation;1.4489795918367347
-File name;instances\j12012_6.sm;Fitness;168;Critical path;82;Deviation;1.048780487804878
-File name;instances\j12012_7.sm;Fitness;196;Critical path;83;Deviation;1.3614457831325302
-File name;instances\j12012_8.sm;Fitness;160;Critical path;72;Deviation;1.2222222222222223
-File name;instances\j12012_9.sm;Fitness;147;Critical path;77;Deviation;0.9090909090909091
-File name;instances\j12013_1.sm;Fitness;174;Critical path;121;Deviation;0.4380165289256198
-File name;instances\j12013_10.sm;Fitness;122;Critical path;78;Deviation;0.5641025641025641
-File name;instances\j12013_2.sm;Fitness;121;Critical path;72;Deviation;0.6805555555555556
-File name;instances\j12013_3.sm;Fitness;177;Critical path;106;Deviation;0.6698113207547169
-File name;instances\j12013_4.sm;Fitness;153;Critical path;88;Deviation;0.7386363636363636
-File name;instances\j12013_5.sm;Fitness;132;Critical path;79;Deviation;0.6708860759493671
-File name;instances\j12013_6.sm;Fitness;148;Critical path;86;Deviation;0.7209302325581395
-File name;instances\j12013_7.sm;Fitness;165;Critical path;105;Deviation;0.5714285714285714
-File name;instances\j12013_8.sm;Fitness;145;Critical path;87;Deviation;0.6666666666666666
-File name;instances\j12013_9.sm;Fitness;132;Critical path;77;Deviation;0.7142857142857143
-File name;instances\j12014_1.sm;Fitness;116;Critical path;81;Deviation;0.43209876543209874
-File name;instances\j12014_10.sm;Fitness;106;Critical path;80;Deviation;0.325
-File name;instances\j12014_2.sm;Fitness;128;Critical path;86;Deviation;0.4883720930232558
-File name;instances\j12014_3.sm;Fitness;119;Critical path;88;Deviation;0.3522727272727273
-File name;instances\j12014_4.sm;Fitness;143;Critical path;85;Deviation;0.6823529411764706
-File name;instances\j12014_5.sm;Fitness;141;Critical path;90;Deviation;0.5666666666666667
-File name;instances\j12014_6.sm;Fitness;120;Critical path;91;Deviation;0.31868131868131866
-File name;instances\j12014_7.sm;Fitness;129;Critical path;89;Deviation;0.449438202247191
-File name;instances\j12014_8.sm;Fitness;155;Critical path;101;Deviation;0.5346534653465347
-File name;instances\j12014_9.sm;Fitness;132;Critical path;101;Deviation;0.3069306930693069
-File name;instances\j12015_1.sm;Fitness;109;Critical path;81;Deviation;0.345679012345679
-File name;instances\j12015_10.sm;Fitness;117;Critical path;91;Deviation;0.2857142857142857
-File name;instances\j12015_2.sm;Fitness;96;Critical path;75;Deviation;0.28
-File name;instances\j12015_3.sm;Fitness;108;Critical path;87;Deviation;0.2413793103448276
-File name;instances\j12015_4.sm;Fitness;100;Critical path;82;Deviation;0.21951219512195122
-File name;instances\j12015_5.sm;Fitness;102;Critical path;87;Deviation;0.1724137931034483
-File name;instances\j12015_6.sm;Fitness;125;Critical path;97;Deviation;0.28865979381443296
-File name;instances\j12015_7.sm;Fitness;85;Critical path;75;Deviation;0.13333333333333333
-File name;instances\j12015_8.sm;Fitness;151;Critical path;126;Deviation;0.1984126984126984
-File name;instances\j12015_9.sm;Fitness;134;Critical path;109;Deviation;0.22935779816513763
-File name;instances\j12016_1.sm;Fitness;266;Critical path;71;Deviation;2.7464788732394365
-File name;instances\j12016_10.sm;Fitness;296;Critical path;98;Deviation;2.020408163265306
-File name;instances\j12016_2.sm;Fitness;307;Critical path;85;Deviation;2.611764705882353
-File name;instances\j12016_3.sm;Fitness;320;Critical path;97;Deviation;2.2989690721649483
-File name;instances\j12016_4.sm;Fitness;256;Critical path;80;Deviation;2.2
-File name;instances\j12016_5.sm;Fitness;292;Critical path;92;Deviation;2.1739130434782608
-File name;instances\j12016_6.sm;Fitness;285;Critical path;79;Deviation;2.607594936708861
-File name;instances\j12016_7.sm;Fitness;268;Critical path;90;Deviation;1.9777777777777779
-File name;instances\j12016_8.sm;Fitness;276;Critical path;77;Deviation;2.5844155844155843
-File name;instances\j12016_9.sm;Fitness;288;Critical path;88;Deviation;2.272727272727273
-File name;instances\j12017_1.sm;Fitness;193;Critical path;87;Deviation;1.2183908045977012
-File name;instances\j12017_10.sm;Fitness;176;Critical path;88;Deviation;1.0
-File name;instances\j12017_2.sm;Fitness;165;Critical path;74;Deviation;1.2297297297297298
-File name;instances\j12017_3.sm;Fitness;139;Critical path;72;Deviation;0.9305555555555556
-File name;instances\j12017_4.sm;Fitness;163;Critical path;91;Deviation;0.7912087912087912
-File name;instances\j12017_5.sm;Fitness;176;Critical path;90;Deviation;0.9555555555555556
-File name;instances\j12017_6.sm;Fitness;174;Critical path;68;Deviation;1.5588235294117647
-File name;instances\j12017_7.sm;Fitness;197;Critical path;98;Deviation;1.010204081632653
-File name;instances\j12017_8.sm;Fitness;175;Critical path;73;Deviation;1.3972602739726028
-File name;instances\j12017_9.sm;Fitness;176;Critical path;81;Deviation;1.1728395061728396
-File name;instances\j12018_1.sm;Fitness;185;Critical path;101;Deviation;0.8316831683168316
-File name;instances\j12018_10.sm;Fitness;143;Critical path;84;Deviation;0.7023809523809523
-File name;instances\j12018_2.sm;Fitness;155;Critical path;111;Deviation;0.3963963963963964
-File name;instances\j12018_3.sm;Fitness;131;Critical path;72;Deviation;0.8194444444444444
-File name;instances\j12018_4.sm;Fitness;132;Critical path;77;Deviation;0.7142857142857143
-File name;instances\j12018_5.sm;Fitness;154;Critical path;88;Deviation;0.75
-File name;instances\j12018_6.sm;Fitness;190;Critical path;108;Deviation;0.7592592592592593
-File name;instances\j12018_7.sm;Fitness;151;Critical path;89;Deviation;0.6966292134831461
-File name;instances\j12018_8.sm;Fitness;150;Critical path;88;Deviation;0.7045454545454546
-File name;instances\j12018_9.sm;Fitness;127;Critical path;76;Deviation;0.6710526315789473
-File name;instances\j12019_1.sm;Fitness;118;Critical path;88;Deviation;0.3409090909090909
-File name;instances\j12019_10.sm;Fitness;113;Critical path;88;Deviation;0.2840909090909091
-File name;instances\j12019_2.sm;Fitness;122;Critical path;81;Deviation;0.5061728395061729
-File name;instances\j12019_3.sm;Fitness;103;Critical path;72;Deviation;0.4305555555555556
-File name;instances\j12019_4.sm;Fitness;147;Critical path;92;Deviation;0.5978260869565217
-File name;instances\j12019_5.sm;Fitness;148;Critical path;85;Deviation;0.7411764705882353
-File name;instances\j12019_6.sm;Fitness;129;Critical path;80;Deviation;0.6125
-File name;instances\j12019_7.sm;Fitness;128;Critical path;93;Deviation;0.3763440860215054
-File name;instances\j12019_8.sm;Fitness;137;Critical path;93;Deviation;0.4731182795698925
-File name;instances\j12019_9.sm;Fitness;115;Critical path;75;Deviation;0.5333333333333333
-File name;instances\j1201_1.sm;Fitness;163;Critical path;99;Deviation;0.6464646464646465
-File name;instances\j1201_10.sm;Fitness;148;Critical path;89;Deviation;0.6629213483146067
-File name;instances\j1201_2.sm;Fitness;163;Critical path;86;Deviation;0.8953488372093024
-File name;instances\j1201_3.sm;Fitness;160;Critical path;82;Deviation;0.9512195121951219
-File name;instances\j1201_4.sm;Fitness;133;Critical path;79;Deviation;0.6835443037974683
-File name;instances\j1201_5.sm;Fitness;151;Critical path;94;Deviation;0.6063829787234043
-File name;instances\j1201_6.sm;Fitness;129;Critical path;65;Deviation;0.9846153846153847
-File name;instances\j1201_7.sm;Fitness;159;Critical path;98;Deviation;0.6224489795918368
-File name;instances\j1201_8.sm;Fitness;141;Critical path;85;Deviation;0.6588235294117647
-File name;instances\j1201_9.sm;Fitness;159;Critical path;89;Deviation;0.7865168539325843
-File name;instances\j12020_1.sm;Fitness;118;Critical path;89;Deviation;0.3258426966292135
-File name;instances\j12020_10.sm;Fitness;114;Critical path;81;Deviation;0.4074074074074074
-File name;instances\j12020_2.sm;Fitness;123;Critical path;99;Deviation;0.24242424242424243
-File name;instances\j12020_3.sm;Fitness;118;Critical path;74;Deviation;0.5945945945945946
-File name;instances\j12020_4.sm;Fitness;110;Critical path;89;Deviation;0.23595505617977527
-File name;instances\j12020_5.sm;Fitness;88;Critical path;69;Deviation;0.2753623188405797
-File name;instances\j12020_6.sm;Fitness;89;Critical path;80;Deviation;0.1125
-File name;instances\j12020_7.sm;Fitness;92;Critical path;81;Deviation;0.13580246913580246
-File name;instances\j12020_8.sm;Fitness;133;Critical path;107;Deviation;0.24299065420560748
-File name;instances\j12020_9.sm;Fitness;92;Critical path;80;Deviation;0.15
-File name;instances\j12021_1.sm;Fitness;164;Critical path;98;Deviation;0.673469387755102
-File name;instances\j12021_10.sm;Fitness;145;Critical path;87;Deviation;0.6666666666666666
-File name;instances\j12021_2.sm;Fitness;158;Critical path;87;Deviation;0.8160919540229885
-File name;instances\j12021_3.sm;Fitness;193;Critical path;111;Deviation;0.7387387387387387
-File name;instances\j12021_4.sm;Fitness;200;Critical path;111;Deviation;0.8018018018018018
-File name;instances\j12021_5.sm;Fitness;189;Critical path;95;Deviation;0.9894736842105263
-File name;instances\j12021_6.sm;Fitness;169;Critical path;97;Deviation;0.7422680412371134
-File name;instances\j12021_7.sm;Fitness;145;Critical path;79;Deviation;0.8354430379746836
-File name;instances\j12021_8.sm;Fitness;181;Critical path;121;Deviation;0.49586776859504134
-File name;instances\j12021_9.sm;Fitness;147;Critical path;86;Deviation;0.7093023255813954
-File name;instances\j12022_1.sm;Fitness;158;Critical path;83;Deviation;0.9036144578313253
-File name;instances\j12022_10.sm;Fitness;105;Critical path;71;Deviation;0.4788732394366197
-File name;instances\j12022_2.sm;Fitness;141;Critical path;104;Deviation;0.3557692307692308
-File name;instances\j12022_3.sm;Fitness;131;Critical path;83;Deviation;0.5783132530120482
-File name;instances\j12022_4.sm;Fitness;125;Critical path;79;Deviation;0.5822784810126582
-File name;instances\j12022_5.sm;Fitness;128;Critical path;93;Deviation;0.3763440860215054
-File name;instances\j12022_6.sm;Fitness;145;Critical path;93;Deviation;0.5591397849462365
-File name;instances\j12022_7.sm;Fitness;162;Critical path;124;Deviation;0.3064516129032258
-File name;instances\j12022_8.sm;Fitness;135;Critical path;93;Deviation;0.45161290322580644
-File name;instances\j12022_9.sm;Fitness;132;Critical path;91;Deviation;0.45054945054945056
-File name;instances\j12023_1.sm;Fitness;139;Critical path;107;Deviation;0.29906542056074764
-File name;instances\j12023_10.sm;Fitness;118;Critical path;100;Deviation;0.18
-File name;instances\j12023_2.sm;Fitness;124;Critical path;116;Deviation;0.06896551724137931
-File name;instances\j12023_3.sm;Fitness;114;Critical path;99;Deviation;0.15151515151515152
-File name;instances\j12023_4.sm;Fitness;134;Critical path;103;Deviation;0.30097087378640774
-File name;instances\j12023_5.sm;Fitness;132;Critical path;96;Deviation;0.375
-File name;instances\j12023_6.sm;Fitness;144;Critical path;103;Deviation;0.39805825242718446
-File name;instances\j12023_7.sm;Fitness;138;Critical path;104;Deviation;0.3269230769230769
-File name;instances\j12023_8.sm;Fitness;125;Critical path;100;Deviation;0.25
-File name;instances\j12023_9.sm;Fitness;142;Critical path;105;Deviation;0.3523809523809524
-File name;instances\j12024_1.sm;Fitness;101;Critical path;92;Deviation;0.09782608695652174
-File name;instances\j12024_10.sm;Fitness;111;Critical path;91;Deviation;0.21978021978021978
-File name;instances\j12024_2.sm;Fitness;111;Critical path;91;Deviation;0.21978021978021978
-File name;instances\j12024_3.sm;Fitness;131;Critical path;89;Deviation;0.47191011235955055
-File name;instances\j12024_4.sm;Fitness;128;Critical path;101;Deviation;0.26732673267326734
-File name;instances\j12024_5.sm;Fitness;100;Critical path;86;Deviation;0.16279069767441862
-File name;instances\j12024_6.sm;Fitness;118;Critical path;95;Deviation;0.24210526315789474
-File name;instances\j12024_7.sm;Fitness;126;Critical path;109;Deviation;0.1559633027522936
-File name;instances\j12024_8.sm;Fitness;122;Critical path;104;Deviation;0.17307692307692307
-File name;instances\j12024_9.sm;Fitness;92;Critical path;76;Deviation;0.21052631578947367
-File name;instances\j12025_1.sm;Fitness;103;Critical path;82;Deviation;0.25609756097560976
-File name;instances\j12025_10.sm;Fitness;116;Critical path;92;Deviation;0.2608695652173913
-File name;instances\j12025_2.sm;Fitness;129;Critical path;108;Deviation;0.19444444444444445
-File name;instances\j12025_3.sm;Fitness;106;Critical path;100;Deviation;0.06
-File name;instances\j12025_4.sm;Fitness;127;Critical path;117;Deviation;0.08547008547008547
-File name;instances\j12025_5.sm;Fitness;100;Critical path;100;Deviation;0.0
-File name;instances\j12025_6.sm;Fitness;112;Critical path;91;Deviation;0.23076923076923078
-File name;instances\j12025_7.sm;Fitness;111;Critical path;91;Deviation;0.21978021978021978
-File name;instances\j12025_8.sm;Fitness;110;Critical path;76;Deviation;0.4473684210526316
-File name;instances\j12025_9.sm;Fitness;109;Critical path;94;Deviation;0.1595744680851064
-File name;instances\j12026_1.sm;Fitness;253;Critical path;96;Deviation;1.6354166666666667
-File name;instances\j12026_10.sm;Fitness;295;Critical path;122;Deviation;1.4180327868852458
-File name;instances\j12026_2.sm;Fitness;286;Critical path;97;Deviation;1.9484536082474226
-File name;instances\j12026_3.sm;Fitness;228;Critical path;93;Deviation;1.4516129032258065
-File name;instances\j12026_4.sm;Fitness;250;Critical path;108;Deviation;1.3148148148148149
-File name;instances\j12026_5.sm;Fitness;254;Critical path;81;Deviation;2.1358024691358026
-File name;instances\j12026_6.sm;Fitness;259;Critical path;122;Deviation;1.1229508196721312
-File name;instances\j12026_7.sm;Fitness;244;Critical path;83;Deviation;1.9397590361445782
-File name;instances\j12026_8.sm;Fitness;276;Critical path;105;Deviation;1.6285714285714286
-File name;instances\j12026_9.sm;Fitness;268;Critical path;124;Deviation;1.1612903225806452
-File name;instances\j12027_1.sm;Fitness;141;Critical path;77;Deviation;0.8311688311688312
-File name;instances\j12027_10.sm;Fitness;169;Critical path;105;Deviation;0.6095238095238096
-File name;instances\j12027_2.sm;Fitness;189;Critical path;87;Deviation;1.1724137931034482
-File name;instances\j12027_3.sm;Fitness;199;Critical path;98;Deviation;1.030612244897959
-File name;instances\j12027_4.sm;Fitness;151;Critical path;85;Deviation;0.7764705882352941
-File name;instances\j12027_5.sm;Fitness;159;Critical path;89;Deviation;0.7865168539325843
-File name;instances\j12027_6.sm;Fitness;223;Critical path;97;Deviation;1.2989690721649485
-File name;instances\j12027_7.sm;Fitness;203;Critical path;100;Deviation;1.03
-File name;instances\j12027_8.sm;Fitness;208;Critical path;108;Deviation;0.9259259259259259
-File name;instances\j12027_9.sm;Fitness;189;Critical path;95;Deviation;0.9894736842105263
-File name;instances\j12028_1.sm;Fitness;160;Critical path;98;Deviation;0.6326530612244898
-File name;instances\j12028_10.sm;Fitness;158;Critical path;109;Deviation;0.44954128440366975
-File name;instances\j12028_2.sm;Fitness;147;Critical path;110;Deviation;0.33636363636363636
-File name;instances\j12028_3.sm;Fitness;130;Critical path;101;Deviation;0.2871287128712871
-File name;instances\j12028_4.sm;Fitness;160;Critical path;103;Deviation;0.5533980582524272
-File name;instances\j12028_5.sm;Fitness;132;Critical path;102;Deviation;0.29411764705882354
-File name;instances\j12028_6.sm;Fitness;142;Critical path;103;Deviation;0.3786407766990291
-File name;instances\j12028_7.sm;Fitness;153;Critical path;97;Deviation;0.5773195876288659
-File name;instances\j12028_8.sm;Fitness;153;Critical path;87;Deviation;0.7586206896551724
-File name;instances\j12028_9.sm;Fitness;145;Critical path;93;Deviation;0.5591397849462365
-File name;instances\j12029_1.sm;Fitness;129;Critical path;104;Deviation;0.2403846153846154
-File name;instances\j12029_10.sm;Fitness;134;Critical path;96;Deviation;0.3958333333333333
-File name;instances\j12029_2.sm;Fitness;118;Critical path;91;Deviation;0.2967032967032967
-File name;instances\j12029_3.sm;Fitness;126;Critical path;80;Deviation;0.575
-File name;instances\j12029_4.sm;Fitness;113;Critical path;77;Deviation;0.4675324675324675
-File name;instances\j12029_5.sm;Fitness;136;Critical path;102;Deviation;0.3333333333333333
-File name;instances\j12029_6.sm;Fitness;124;Critical path;88;Deviation;0.4090909090909091
-File name;instances\j12029_7.sm;Fitness;120;Critical path;97;Deviation;0.23711340206185566
-File name;instances\j12029_8.sm;Fitness;105;Critical path;80;Deviation;0.3125
-File name;instances\j12029_9.sm;Fitness;122;Critical path;97;Deviation;0.25773195876288657
-File name;instances\j1202_1.sm;Fitness;130;Critical path;70;Deviation;0.8571428571428571
-File name;instances\j1202_10.sm;Fitness;131;Critical path;79;Deviation;0.6582278481012658
-File name;instances\j1202_2.sm;Fitness;122;Critical path;73;Deviation;0.6712328767123288
-File name;instances\j1202_3.sm;Fitness;128;Critical path;78;Deviation;0.6410256410256411
-File name;instances\j1202_4.sm;Fitness;120;Critical path;88;Deviation;0.36363636363636365
-File name;instances\j1202_5.sm;Fitness;149;Critical path;91;Deviation;0.6373626373626373
-File name;instances\j1202_6.sm;Fitness;125;Critical path;75;Deviation;0.6666666666666666
-File name;instances\j1202_7.sm;Fitness;118;Critical path;84;Deviation;0.40476190476190477
-File name;instances\j1202_8.sm;Fitness;109;Critical path;77;Deviation;0.4155844155844156
-File name;instances\j1202_9.sm;Fitness;127;Critical path;92;Deviation;0.3804347826086957
-File name;instances\j12030_1.sm;Fitness;130;Critical path;102;Deviation;0.27450980392156865
-File name;instances\j12030_10.sm;Fitness;102;Critical path;86;Deviation;0.18604651162790697
-File name;instances\j12030_2.sm;Fitness;133;Critical path;112;Deviation;0.1875
-File name;instances\j12030_3.sm;Fitness;123;Critical path;108;Deviation;0.1388888888888889
-File name;instances\j12030_4.sm;Fitness;104;Critical path;83;Deviation;0.25301204819277107
-File name;instances\j12030_5.sm;Fitness;119;Critical path;81;Deviation;0.4691358024691358
-File name;instances\j12030_6.sm;Fitness;111;Critical path;79;Deviation;0.4050632911392405
-File name;instances\j12030_7.sm;Fitness;123;Critical path;93;Deviation;0.3225806451612903
-File name;instances\j12030_8.sm;Fitness;95;Critical path;79;Deviation;0.20253164556962025
-File name;instances\j12030_9.sm;Fitness;112;Critical path;93;Deviation;0.20430107526881722
-File name;instances\j12031_1.sm;Fitness;307;Critical path;92;Deviation;2.3369565217391304
-File name;instances\j12031_10.sm;Fitness;331;Critical path;90;Deviation;2.6777777777777776
-File name;instances\j12031_2.sm;Fitness;285;Critical path;82;Deviation;2.475609756097561
-File name;instances\j12031_3.sm;Fitness;250;Critical path;80;Deviation;2.125
-File name;instances\j12031_4.sm;Fitness;332;Critical path;112;Deviation;1.9642857142857142
-File name;instances\j12031_5.sm;Fitness;293;Critical path;97;Deviation;2.020618556701031
-File name;instances\j12031_6.sm;Fitness;258;Critical path;101;Deviation;1.5544554455445545
-File name;instances\j12031_7.sm;Fitness;318;Critical path;110;Deviation;1.8909090909090909
-File name;instances\j12031_8.sm;Fitness;273;Critical path;92;Deviation;1.9673913043478262
-File name;instances\j12031_9.sm;Fitness;256;Critical path;99;Deviation;1.5858585858585859
-File name;instances\j12032_1.sm;Fitness;200;Critical path;99;Deviation;1.02020202020202
-File name;instances\j12032_10.sm;Fitness;190;Critical path;91;Deviation;1.0879120879120878
-File name;instances\j12032_2.sm;Fitness;215;Critical path;100;Deviation;1.15
-File name;instances\j12032_3.sm;Fitness;196;Critical path;101;Deviation;0.9405940594059405
-File name;instances\j12032_4.sm;Fitness;202;Critical path;108;Deviation;0.8703703703703703
-File name;instances\j12032_5.sm;Fitness;192;Critical path;99;Deviation;0.9393939393939394
-File name;instances\j12032_6.sm;Fitness;179;Critical path;94;Deviation;0.9042553191489362
-File name;instances\j12032_7.sm;Fitness;174;Critical path;104;Deviation;0.6730769230769231
-File name;instances\j12032_8.sm;Fitness;194;Critical path;81;Deviation;1.3950617283950617
-File name;instances\j12032_9.sm;Fitness;189;Critical path;86;Deviation;1.197674418604651
-File name;instances\j12033_1.sm;Fitness;159;Critical path;99;Deviation;0.6060606060606061
-File name;instances\j12033_10.sm;Fitness;149;Critical path;88;Deviation;0.6931818181818182
-File name;instances\j12033_2.sm;Fitness;162;Critical path;92;Deviation;0.7608695652173914
-File name;instances\j12033_3.sm;Fitness;159;Critical path;88;Deviation;0.8068181818181818
-File name;instances\j12033_4.sm;Fitness;175;Critical path;97;Deviation;0.8041237113402062
-File name;instances\j12033_5.sm;Fitness;210;Critical path;108;Deviation;0.9444444444444444
-File name;instances\j12033_6.sm;Fitness;167;Critical path;115;Deviation;0.45217391304347826
-File name;instances\j12033_7.sm;Fitness;159;Critical path;93;Deviation;0.7096774193548387
-File name;instances\j12033_8.sm;Fitness;161;Critical path;90;Deviation;0.7888888888888889
-File name;instances\j12033_9.sm;Fitness;155;Critical path;102;Deviation;0.5196078431372549
-File name;instances\j12034_1.sm;Fitness;107;Critical path;72;Deviation;0.4861111111111111
-File name;instances\j12034_10.sm;Fitness;122;Critical path;101;Deviation;0.2079207920792079
-File name;instances\j12034_2.sm;Fitness;154;Critical path;95;Deviation;0.6210526315789474
-File name;instances\j12034_3.sm;Fitness;142;Critical path;94;Deviation;0.5106382978723404
-File name;instances\j12034_4.sm;Fitness;135;Critical path;94;Deviation;0.43617021276595747
-File name;instances\j12034_5.sm;Fitness;139;Critical path;99;Deviation;0.40404040404040403
-File name;instances\j12034_6.sm;Fitness;132;Critical path;100;Deviation;0.32
-File name;instances\j12034_7.sm;Fitness;144;Critical path;105;Deviation;0.37142857142857144
-File name;instances\j12034_8.sm;Fitness;125;Critical path;81;Deviation;0.5432098765432098
-File name;instances\j12034_9.sm;Fitness;133;Critical path;83;Deviation;0.6024096385542169
-File name;instances\j12035_1.sm;Fitness;99;Critical path;87;Deviation;0.13793103448275862
-File name;instances\j12035_10.sm;Fitness;104;Critical path;86;Deviation;0.20930232558139536
-File name;instances\j12035_2.sm;Fitness;179;Critical path;111;Deviation;0.6126126126126126
-File name;instances\j12035_3.sm;Fitness;112;Critical path;77;Deviation;0.45454545454545453
-File name;instances\j12035_4.sm;Fitness;144;Critical path;101;Deviation;0.42574257425742573
-File name;instances\j12035_5.sm;Fitness;124;Critical path;92;Deviation;0.34782608695652173
-File name;instances\j12035_6.sm;Fitness;114;Critical path;86;Deviation;0.32558139534883723
-File name;instances\j12035_7.sm;Fitness;136;Critical path;99;Deviation;0.37373737373737376
-File name;instances\j12035_8.sm;Fitness;128;Critical path;101;Deviation;0.26732673267326734
-File name;instances\j12035_9.sm;Fitness;115;Critical path;91;Deviation;0.26373626373626374
-File name;instances\j12036_1.sm;Fitness;282;Critical path;98;Deviation;1.8775510204081634
-File name;instances\j12036_10.sm;Fitness;315;Critical path;91;Deviation;2.4615384615384617
-File name;instances\j12036_2.sm;Fitness;307;Critical path;89;Deviation;2.449438202247191
-File name;instances\j12036_3.sm;Fitness;318;Critical path;91;Deviation;2.4945054945054945
-File name;instances\j12036_4.sm;Fitness;336;Critical path;96;Deviation;2.5
-File name;instances\j12036_5.sm;Fitness;314;Critical path;95;Deviation;2.305263157894737
-File name;instances\j12036_6.sm;Fitness;323;Critical path;101;Deviation;2.198019801980198
-File name;instances\j12036_7.sm;Fitness;294;Critical path;103;Deviation;1.854368932038835
-File name;instances\j12036_8.sm;Fitness;266;Critical path;83;Deviation;2.2048192771084336
-File name;instances\j12036_9.sm;Fitness;317;Critical path;104;Deviation;2.048076923076923
-File name;instances\j12037_1.sm;Fitness;199;Critical path;96;Deviation;1.0729166666666667
-File name;instances\j12037_10.sm;Fitness;177;Critical path;80;Deviation;1.2125
-File name;instances\j12037_2.sm;Fitness;203;Critical path;86;Deviation;1.3604651162790697
-File name;instances\j12037_3.sm;Fitness;188;Critical path;101;Deviation;0.8613861386138614
-File name;instances\j12037_4.sm;Fitness;217;Critical path;95;Deviation;1.2842105263157895
-File name;instances\j12037_5.sm;Fitness;278;Critical path;114;Deviation;1.4385964912280702
-File name;instances\j12037_6.sm;Fitness;225;Critical path;105;Deviation;1.1428571428571428
-File name;instances\j12037_7.sm;Fitness;223;Critical path;82;Deviation;1.7195121951219512
-File name;instances\j12037_8.sm;Fitness;247;Critical path;116;Deviation;1.1293103448275863
-File name;instances\j12037_9.sm;Fitness;196;Critical path;82;Deviation;1.3902439024390243
-File name;instances\j12038_1.sm;Fitness;149;Critical path;103;Deviation;0.44660194174757284
-File name;instances\j12038_10.sm;Fitness;181;Critical path;96;Deviation;0.8854166666666666
-File name;instances\j12038_2.sm;Fitness;168;Critical path;92;Deviation;0.8260869565217391
-File name;instances\j12038_3.sm;Fitness;195;Critical path;105;Deviation;0.8571428571428571
-File name;instances\j12038_4.sm;Fitness;198;Critical path;116;Deviation;0.7068965517241379
-File name;instances\j12038_5.sm;Fitness;157;Critical path;95;Deviation;0.6526315789473685
-File name;instances\j12038_6.sm;Fitness;165;Critical path;95;Deviation;0.7368421052631579
-File name;instances\j12038_7.sm;Fitness;139;Critical path;91;Deviation;0.5274725274725275
-File name;instances\j12038_8.sm;Fitness;169;Critical path;98;Deviation;0.7244897959183674
-File name;instances\j12038_9.sm;Fitness;185;Critical path;134;Deviation;0.3805970149253731
-File name;instances\j12039_1.sm;Fitness;121;Critical path;95;Deviation;0.2736842105263158
-File name;instances\j12039_10.sm;Fitness;146;Critical path;99;Deviation;0.47474747474747475
-File name;instances\j12039_2.sm;Fitness;164;Critical path;104;Deviation;0.5769230769230769
-File name;instances\j12039_3.sm;Fitness;167;Critical path;100;Deviation;0.67
-File name;instances\j12039_4.sm;Fitness;130;Critical path;76;Deviation;0.7105263157894737
-File name;instances\j12039_5.sm;Fitness;134;Critical path;106;Deviation;0.2641509433962264
-File name;instances\j12039_6.sm;Fitness;129;Critical path;95;Deviation;0.35789473684210527
-File name;instances\j12039_7.sm;Fitness;149;Critical path;94;Deviation;0.5851063829787234
-File name;instances\j12039_8.sm;Fitness;132;Critical path;93;Deviation;0.41935483870967744
-File name;instances\j12039_9.sm;Fitness;116;Critical path;77;Deviation;0.5064935064935064
-File name;instances\j1203_1.sm;Fitness;111;Critical path;79;Deviation;0.4050632911392405
-File name;instances\j1203_10.sm;Fitness;146;Critical path;103;Deviation;0.4174757281553398
-File name;instances\j1203_2.sm;Fitness;103;Critical path;88;Deviation;0.17045454545454544
-File name;instances\j1203_3.sm;Fitness;117;Critical path;100;Deviation;0.17
-File name;instances\j1203_4.sm;Fitness;91;Critical path;71;Deviation;0.28169014084507044
-File name;instances\j1203_5.sm;Fitness;114;Critical path;81;Deviation;0.4074074074074074
-File name;instances\j1203_6.sm;Fitness;108;Critical path;102;Deviation;0.058823529411764705
-File name;instances\j1203_7.sm;Fitness;113;Critical path;93;Deviation;0.21505376344086022
-File name;instances\j1203_8.sm;Fitness;107;Critical path;77;Deviation;0.38961038961038963
-File name;instances\j1203_9.sm;Fitness;103;Critical path;86;Deviation;0.19767441860465115
-File name;instances\j12040_1.sm;Fitness;103;Critical path;78;Deviation;0.32051282051282054
-File name;instances\j12040_10.sm;Fitness;122;Critical path;96;Deviation;0.2708333333333333
-File name;instances\j12040_2.sm;Fitness;122;Critical path;90;Deviation;0.35555555555555557
-File name;instances\j12040_3.sm;Fitness;116;Critical path;87;Deviation;0.3333333333333333
-File name;instances\j12040_4.sm;Fitness;131;Critical path;112;Deviation;0.16964285714285715
-File name;instances\j12040_5.sm;Fitness;124;Critical path;101;Deviation;0.22772277227722773
-File name;instances\j12040_6.sm;Fitness;115;Critical path;90;Deviation;0.2777777777777778
-File name;instances\j12040_7.sm;Fitness;117;Critical path;91;Deviation;0.2857142857142857
-File name;instances\j12040_8.sm;Fitness;117;Critical path;97;Deviation;0.20618556701030927
-File name;instances\j12040_9.sm;Fitness;151;Critical path;117;Deviation;0.2905982905982906
-File name;instances\j12041_1.sm;Fitness;171;Critical path;103;Deviation;0.6601941747572816
-File name;instances\j12041_10.sm;Fitness;204;Critical path;121;Deviation;0.6859504132231405
-File name;instances\j12041_2.sm;Fitness;189;Critical path;99;Deviation;0.9090909090909091
-File name;instances\j12041_3.sm;Fitness;213;Critical path;119;Deviation;0.7899159663865546
-File name;instances\j12041_4.sm;Fitness;155;Critical path;87;Deviation;0.7816091954022989
-File name;instances\j12041_5.sm;Fitness;187;Critical path;115;Deviation;0.6260869565217392
-File name;instances\j12041_6.sm;Fitness;184;Critical path;91;Deviation;1.021978021978022
-File name;instances\j12041_7.sm;Fitness;149;Critical path;91;Deviation;0.6373626373626373
-File name;instances\j12041_8.sm;Fitness;172;Critical path;110;Deviation;0.5636363636363636
-File name;instances\j12041_9.sm;Fitness;169;Critical path;95;Deviation;0.7789473684210526
-File name;instances\j12042_1.sm;Fitness;165;Critical path;91;Deviation;0.8131868131868132
-File name;instances\j12042_10.sm;Fitness;163;Critical path;102;Deviation;0.5980392156862745
-File name;instances\j12042_2.sm;Fitness;173;Critical path;126;Deviation;0.373015873015873
-File name;instances\j12042_3.sm;Fitness;148;Critical path;100;Deviation;0.48
-File name;instances\j12042_4.sm;Fitness;139;Critical path;102;Deviation;0.3627450980392157
-File name;instances\j12042_5.sm;Fitness;156;Critical path;108;Deviation;0.4444444444444444
-File name;instances\j12042_6.sm;Fitness;155;Critical path;88;Deviation;0.7613636363636364
-File name;instances\j12042_7.sm;Fitness;166;Critical path;118;Deviation;0.4067796610169492
-File name;instances\j12042_8.sm;Fitness;151;Critical path;101;Deviation;0.49504950495049505
-File name;instances\j12042_9.sm;Fitness;145;Critical path;96;Deviation;0.5104166666666666
-File name;instances\j12043_1.sm;Fitness;128;Critical path;100;Deviation;0.28
-File name;instances\j12043_10.sm;Fitness;137;Critical path;111;Deviation;0.23423423423423423
-File name;instances\j12043_2.sm;Fitness;148;Critical path;115;Deviation;0.28695652173913044
-File name;instances\j12043_3.sm;Fitness;130;Critical path;95;Deviation;0.3684210526315789
-File name;instances\j12043_4.sm;Fitness;142;Critical path;100;Deviation;0.42
-File name;instances\j12043_5.sm;Fitness;137;Critical path;98;Deviation;0.3979591836734694
-File name;instances\j12043_6.sm;Fitness;145;Critical path;85;Deviation;0.7058823529411765
-File name;instances\j12043_7.sm;Fitness;148;Critical path;117;Deviation;0.26495726495726496
-File name;instances\j12043_8.sm;Fitness;135;Critical path;115;Deviation;0.17391304347826086
-File name;instances\j12043_9.sm;Fitness;120;Critical path;101;Deviation;0.18811881188118812
-File name;instances\j12044_1.sm;Fitness;113;Critical path;100;Deviation;0.13
-File name;instances\j12044_10.sm;Fitness;118;Critical path;98;Deviation;0.20408163265306123
-File name;instances\j12044_2.sm;Fitness;139;Critical path;102;Deviation;0.3627450980392157
-File name;instances\j12044_3.sm;Fitness;129;Critical path;107;Deviation;0.205607476635514
-File name;instances\j12044_4.sm;Fitness;117;Critical path;93;Deviation;0.25806451612903225
-File name;instances\j12044_5.sm;Fitness;139;Critical path;94;Deviation;0.4787234042553192
-File name;instances\j12044_6.sm;Fitness;129;Critical path;106;Deviation;0.2169811320754717
-File name;instances\j12044_7.sm;Fitness;125;Critical path;98;Deviation;0.2755102040816326
-File name;instances\j12044_8.sm;Fitness;131;Critical path;105;Deviation;0.24761904761904763
-File name;instances\j12044_9.sm;Fitness;118;Critical path;91;Deviation;0.2967032967032967
-File name;instances\j12045_1.sm;Fitness;126;Critical path;108;Deviation;0.16666666666666666
-File name;instances\j12045_10.sm;Fitness;112;Critical path;99;Deviation;0.13131313131313133
-File name;instances\j12045_2.sm;Fitness;111;Critical path;91;Deviation;0.21978021978021978
-File name;instances\j12045_3.sm;Fitness;106;Critical path;98;Deviation;0.08163265306122448
-File name;instances\j12045_4.sm;Fitness;119;Critical path;103;Deviation;0.1553398058252427
-File name;instances\j12045_5.sm;Fitness;126;Critical path;114;Deviation;0.10526315789473684
-File name;instances\j12045_6.sm;Fitness;130;Critical path;125;Deviation;0.04
-File name;instances\j12045_7.sm;Fitness;114;Critical path;103;Deviation;0.10679611650485436
-File name;instances\j12045_8.sm;Fitness;125;Critical path;103;Deviation;0.21359223300970873
-File name;instances\j12045_9.sm;Fitness;126;Critical path;114;Deviation;0.10526315789473684
-File name;instances\j12046_1.sm;Fitness;306;Critical path;119;Deviation;1.5714285714285714
-File name;instances\j12046_10.sm;Fitness;271;Critical path;105;Deviation;1.5809523809523809
-File name;instances\j12046_2.sm;Fitness;294;Critical path;117;Deviation;1.5128205128205128
-File name;instances\j12046_3.sm;Fitness;276;Critical path;104;Deviation;1.6538461538461537
-File name;instances\j12046_4.sm;Fitness;265;Critical path;90;Deviation;1.9444444444444444
-File name;instances\j12046_5.sm;Fitness;211;Critical path;97;Deviation;1.175257731958763
-File name;instances\j12046_6.sm;Fitness;247;Critical path;97;Deviation;1.5463917525773196
-File name;instances\j12046_7.sm;Fitness;255;Critical path;106;Deviation;1.4056603773584906
-File name;instances\j12046_8.sm;Fitness;264;Critical path;96;Deviation;1.75
-File name;instances\j12046_9.sm;Fitness;222;Critical path;95;Deviation;1.3368421052631578
-File name;instances\j12047_1.sm;Fitness;213;Critical path;107;Deviation;0.9906542056074766
-File name;instances\j12047_10.sm;Fitness;174;Critical path;102;Deviation;0.7058823529411765
-File name;instances\j12047_2.sm;Fitness;194;Critical path;107;Deviation;0.8130841121495327
-File name;instances\j12047_3.sm;Fitness;184;Critical path;99;Deviation;0.8585858585858586
-File name;instances\j12047_4.sm;Fitness;189;Critical path;106;Deviation;0.7830188679245284
-File name;instances\j12047_5.sm;Fitness;189;Critical path;106;Deviation;0.7830188679245284
-File name;instances\j12047_6.sm;Fitness;193;Critical path;100;Deviation;0.93
-File name;instances\j12047_7.sm;Fitness;193;Critical path;86;Deviation;1.244186046511628
-File name;instances\j12047_8.sm;Fitness;193;Critical path;81;Deviation;1.382716049382716
-File name;instances\j12047_9.sm;Fitness;216;Critical path;104;Deviation;1.0769230769230769
-File name;instances\j12048_1.sm;Fitness;143;Critical path;95;Deviation;0.5052631578947369
-File name;instances\j12048_10.sm;Fitness;169;Critical path;102;Deviation;0.6568627450980392
-File name;instances\j12048_2.sm;Fitness;148;Critical path;88;Deviation;0.6818181818181818
-File name;instances\j12048_3.sm;Fitness;157;Critical path;104;Deviation;0.5096153846153846
-File name;instances\j12048_4.sm;Fitness;193;Critical path;105;Deviation;0.8380952380952381
-File name;instances\j12048_5.sm;Fitness;158;Critical path;93;Deviation;0.6989247311827957
-File name;instances\j12048_6.sm;Fitness;141;Critical path;94;Deviation;0.5
-File name;instances\j12048_7.sm;Fitness;146;Critical path;102;Deviation;0.43137254901960786
-File name;instances\j12048_8.sm;Fitness;162;Critical path;103;Deviation;0.5728155339805825
-File name;instances\j12048_9.sm;Fitness;163;Critical path;101;Deviation;0.6138613861386139
-File name;instances\j12049_1.sm;Fitness;138;Critical path;96;Deviation;0.4375
-File name;instances\j12049_10.sm;Fitness;131;Critical path;87;Deviation;0.5057471264367817
-File name;instances\j12049_2.sm;Fitness;148;Critical path;100;Deviation;0.48
-File name;instances\j12049_3.sm;Fitness;141;Critical path;93;Deviation;0.5161290322580645
-File name;instances\j12049_4.sm;Fitness;131;Critical path;90;Deviation;0.45555555555555555
-File name;instances\j12049_5.sm;Fitness;122;Critical path;82;Deviation;0.4878048780487805
-File name;instances\j12049_6.sm;Fitness;155;Critical path;128;Deviation;0.2109375
-File name;instances\j12049_7.sm;Fitness;128;Critical path;97;Deviation;0.31958762886597936
-File name;instances\j12049_8.sm;Fitness;168;Critical path;112;Deviation;0.5
-File name;instances\j12049_9.sm;Fitness;145;Critical path;97;Deviation;0.4948453608247423
-File name;instances\j1204_1.sm;Fitness;97;Critical path;70;Deviation;0.38571428571428573
-File name;instances\j1204_10.sm;Fitness;82;Critical path;77;Deviation;0.06493506493506493
-File name;instances\j1204_2.sm;Fitness;133;Critical path;107;Deviation;0.24299065420560748
-File name;instances\j1204_3.sm;Fitness;112;Critical path;91;Deviation;0.23076923076923078
-File name;instances\j1204_4.sm;Fitness;109;Critical path;75;Deviation;0.4533333333333333
-File name;instances\j1204_5.sm;Fitness;103;Critical path;74;Deviation;0.3918918918918919
-File name;instances\j1204_6.sm;Fitness;122;Critical path;85;Deviation;0.43529411764705883
-File name;instances\j1204_7.sm;Fitness;108;Critical path;81;Deviation;0.3333333333333333
-File name;instances\j1204_8.sm;Fitness;114;Critical path;90;Deviation;0.26666666666666666
-File name;instances\j1204_9.sm;Fitness;95;Critical path;79;Deviation;0.20253164556962025
-File name;instances\j12050_1.sm;Fitness;132;Critical path;116;Deviation;0.13793103448275862
-File name;instances\j12050_10.sm;Fitness;122;Critical path;103;Deviation;0.18446601941747573
-File name;instances\j12050_2.sm;Fitness;153;Critical path;112;Deviation;0.36607142857142855
-File name;instances\j12050_3.sm;Fitness;139;Critical path;111;Deviation;0.25225225225225223
-File name;instances\j12050_4.sm;Fitness;128;Critical path;94;Deviation;0.3617021276595745
-File name;instances\j12050_5.sm;Fitness;136;Critical path;100;Deviation;0.36
-File name;instances\j12050_6.sm;Fitness;134;Critical path;102;Deviation;0.3137254901960784
-File name;instances\j12050_7.sm;Fitness;171;Critical path;137;Deviation;0.24817518248175183
-File name;instances\j12050_8.sm;Fitness;142;Critical path;112;Deviation;0.26785714285714285
-File name;instances\j12050_9.sm;Fitness;129;Critical path;101;Deviation;0.27722772277227725
-File name;instances\j12051_1.sm;Fitness;302;Critical path;100;Deviation;2.02
-File name;instances\j12051_10.sm;Fitness;368;Critical path;108;Deviation;2.4074074074074074
-File name;instances\j12051_2.sm;Fitness;341;Critical path;92;Deviation;2.7065217391304346
-File name;instances\j12051_3.sm;Fitness;316;Critical path;93;Deviation;2.3978494623655915
-File name;instances\j12051_4.sm;Fitness;289;Critical path;91;Deviation;2.1758241758241756
-File name;instances\j12051_5.sm;Fitness;346;Critical path;102;Deviation;2.392156862745098
-File name;instances\j12051_6.sm;Fitness;315;Critical path;104;Deviation;2.0288461538461537
-File name;instances\j12051_7.sm;Fitness;316;Critical path;91;Deviation;2.4725274725274726
-File name;instances\j12051_8.sm;Fitness;297;Critical path;85;Deviation;2.4941176470588236
-File name;instances\j12051_9.sm;Fitness;321;Critical path;104;Deviation;2.0865384615384617
-File name;instances\j12052_1.sm;Fitness;260;Critical path;113;Deviation;1.3008849557522124
-File name;instances\j12052_10.sm;Fitness;207;Critical path;91;Deviation;1.2747252747252746
-File name;instances\j12052_2.sm;Fitness;264;Critical path;111;Deviation;1.3783783783783783
-File name;instances\j12052_3.sm;Fitness;198;Critical path;102;Deviation;0.9411764705882353
-File name;instances\j12052_4.sm;Fitness;242;Critical path;113;Deviation;1.1415929203539823
-File name;instances\j12052_5.sm;Fitness;244;Critical path;113;Deviation;1.1592920353982301
-File name;instances\j12052_6.sm;Fitness;282;Critical path;118;Deviation;1.3898305084745763
-File name;instances\j12052_7.sm;Fitness;224;Critical path;95;Deviation;1.3578947368421053
-File name;instances\j12052_8.sm;Fitness;222;Critical path;114;Deviation;0.9473684210526315
-File name;instances\j12052_9.sm;Fitness;232;Critical path;88;Deviation;1.6363636363636365
-File name;instances\j12053_1.sm;Fitness;226;Critical path;123;Deviation;0.8373983739837398
-File name;instances\j12053_10.sm;Fitness;186;Critical path;111;Deviation;0.6756756756756757
-File name;instances\j12053_2.sm;Fitness;170;Critical path;108;Deviation;0.5740740740740741
-File name;instances\j12053_3.sm;Fitness;163;Critical path;103;Deviation;0.5825242718446602
-File name;instances\j12053_4.sm;Fitness;199;Critical path;117;Deviation;0.7008547008547008
-File name;instances\j12053_5.sm;Fitness;163;Critical path;96;Deviation;0.6979166666666666
-File name;instances\j12053_6.sm;Fitness;149;Critical path;79;Deviation;0.8860759493670886
-File name;instances\j12053_7.sm;Fitness;164;Critical path;116;Deviation;0.41379310344827586
-File name;instances\j12053_8.sm;Fitness;191;Critical path;103;Deviation;0.8543689320388349
-File name;instances\j12053_9.sm;Fitness;246;Critical path;130;Deviation;0.8923076923076924
-File name;instances\j12054_1.sm;Fitness;145;Critical path;98;Deviation;0.47959183673469385
-File name;instances\j12054_10.sm;Fitness;142;Critical path;100;Deviation;0.42
-File name;instances\j12054_2.sm;Fitness;176;Critical path;134;Deviation;0.31343283582089554
-File name;instances\j12054_3.sm;Fitness;156;Critical path;111;Deviation;0.40540540540540543
-File name;instances\j12054_4.sm;Fitness;187;Critical path;119;Deviation;0.5714285714285714
-File name;instances\j12054_5.sm;Fitness;146;Critical path;92;Deviation;0.5869565217391305
-File name;instances\j12054_6.sm;Fitness;155;Critical path;100;Deviation;0.55
-File name;instances\j12054_7.sm;Fitness;155;Critical path;98;Deviation;0.5816326530612245
-File name;instances\j12054_8.sm;Fitness;137;Critical path;89;Deviation;0.5393258426966292
-File name;instances\j12054_9.sm;Fitness;159;Critical path;95;Deviation;0.6736842105263158
-File name;instances\j12055_1.sm;Fitness;144;Critical path;99;Deviation;0.45454545454545453
-File name;instances\j12055_10.sm;Fitness;134;Critical path;100;Deviation;0.34
-File name;instances\j12055_2.sm;Fitness;110;Critical path;83;Deviation;0.3253012048192771
-File name;instances\j12055_3.sm;Fitness;158;Critical path;126;Deviation;0.25396825396825395
-File name;instances\j12055_4.sm;Fitness;118;Critical path;90;Deviation;0.3111111111111111
-File name;instances\j12055_5.sm;Fitness;130;Critical path;106;Deviation;0.22641509433962265
-File name;instances\j12055_6.sm;Fitness;127;Critical path;98;Deviation;0.29591836734693877
-File name;instances\j12055_7.sm;Fitness;118;Critical path;105;Deviation;0.12380952380952381
-File name;instances\j12055_8.sm;Fitness;132;Critical path;101;Deviation;0.3069306930693069
-File name;instances\j12055_9.sm;Fitness;121;Critical path;94;Deviation;0.2872340425531915
-File name;instances\j12056_1.sm;Fitness;341;Critical path;95;Deviation;2.5894736842105264
-File name;instances\j12056_10.sm;Fitness;367;Critical path;102;Deviation;2.5980392156862746
-File name;instances\j12056_2.sm;Fitness;296;Critical path;87;Deviation;2.4022988505747125
-File name;instances\j12056_3.sm;Fitness;339;Critical path;93;Deviation;2.6451612903225805
-File name;instances\j12056_4.sm;Fitness;305;Critical path;86;Deviation;2.546511627906977
-File name;instances\j12056_5.sm;Fitness;397;Critical path;117;Deviation;2.393162393162393
-File name;instances\j12056_6.sm;Fitness;296;Critical path;95;Deviation;2.1157894736842104
-File name;instances\j12056_7.sm;Fitness;419;Critical path;117;Deviation;2.5811965811965814
-File name;instances\j12056_8.sm;Fitness;395;Critical path;99;Deviation;2.98989898989899
-File name;instances\j12056_9.sm;Fitness;401;Critical path;101;Deviation;2.9702970297029703
-File name;instances\j12057_1.sm;Fitness;268;Critical path;114;Deviation;1.3508771929824561
-File name;instances\j12057_10.sm;Fitness;232;Critical path;121;Deviation;0.9173553719008265
-File name;instances\j12057_2.sm;Fitness;214;Critical path;104;Deviation;1.0576923076923077
-File name;instances\j12057_3.sm;Fitness;260;Critical path;115;Deviation;1.2608695652173914
-File name;instances\j12057_4.sm;Fitness;274;Critical path;120;Deviation;1.2833333333333334
-File name;instances\j12057_5.sm;Fitness;237;Critical path;96;Deviation;1.46875
-File name;instances\j12057_6.sm;Fitness;265;Critical path;99;Deviation;1.6767676767676767
-File name;instances\j12057_7.sm;Fitness;228;Critical path;115;Deviation;0.9826086956521739
-File name;instances\j12057_8.sm;Fitness;224;Critical path;86;Deviation;1.6046511627906976
-File name;instances\j12057_9.sm;Fitness;234;Critical path;108;Deviation;1.1666666666666667
-File name;instances\j12058_1.sm;Fitness;208;Critical path;121;Deviation;0.71900826446281
-File name;instances\j12058_10.sm;Fitness;175;Critical path;98;Deviation;0.7857142857142857
-File name;instances\j12058_2.sm;Fitness;174;Critical path;106;Deviation;0.6415094339622641
-File name;instances\j12058_3.sm;Fitness;154;Critical path;91;Deviation;0.6923076923076923
-File name;instances\j12058_4.sm;Fitness;190;Critical path;98;Deviation;0.9387755102040817
-File name;instances\j12058_5.sm;Fitness;156;Critical path;101;Deviation;0.5445544554455446
-File name;instances\j12058_6.sm;Fitness;187;Critical path;103;Deviation;0.8155339805825242
-File name;instances\j12058_7.sm;Fitness;191;Critical path;114;Deviation;0.6754385964912281
-File name;instances\j12058_8.sm;Fitness;180;Critical path;99;Deviation;0.8181818181818182
-File name;instances\j12058_9.sm;Fitness;176;Critical path;92;Deviation;0.9130434782608695
-File name;instances\j12059_1.sm;Fitness;135;Critical path;102;Deviation;0.3235294117647059
-File name;instances\j12059_10.sm;Fitness;182;Critical path;106;Deviation;0.7169811320754716
-File name;instances\j12059_2.sm;Fitness;136;Critical path;90;Deviation;0.5111111111111111
-File name;instances\j12059_3.sm;Fitness;157;Critical path;108;Deviation;0.4537037037037037
-File name;instances\j12059_4.sm;Fitness;154;Critical path;107;Deviation;0.4392523364485981
-File name;instances\j12059_5.sm;Fitness;153;Critical path;97;Deviation;0.5773195876288659
-File name;instances\j12059_6.sm;Fitness;165;Critical path;103;Deviation;0.6019417475728155
-File name;instances\j12059_7.sm;Fitness;139;Critical path;90;Deviation;0.5444444444444444
-File name;instances\j12059_8.sm;Fitness;145;Critical path;98;Deviation;0.47959183673469385
-File name;instances\j12059_9.sm;Fitness;177;Critical path;112;Deviation;0.5803571428571429
-File name;instances\j1205_1.sm;Fitness;97;Critical path;92;Deviation;0.05434782608695652
-File name;instances\j1205_10.sm;Fitness;95;Critical path;92;Deviation;0.03260869565217391
-File name;instances\j1205_2.sm;Fitness;92;Critical path;80;Deviation;0.15
-File name;instances\j1205_3.sm;Fitness;86;Critical path;72;Deviation;0.19444444444444445
-File name;instances\j1205_4.sm;Fitness;118;Critical path;97;Deviation;0.21649484536082475
-File name;instances\j1205_5.sm;Fitness;83;Critical path;77;Deviation;0.07792207792207792
-File name;instances\j1205_6.sm;Fitness;96;Critical path;88;Deviation;0.09090909090909091
-File name;instances\j1205_7.sm;Fitness;97;Critical path;84;Deviation;0.15476190476190477
-File name;instances\j1205_8.sm;Fitness;91;Critical path;78;Deviation;0.16666666666666666
-File name;instances\j1205_9.sm;Fitness;122;Critical path;106;Deviation;0.1509433962264151
-File name;instances\j12060_1.sm;Fitness;130;Critical path;101;Deviation;0.2871287128712871
-File name;instances\j12060_10.sm;Fitness;116;Critical path;85;Deviation;0.36470588235294116
-File name;instances\j12060_2.sm;Fitness;101;Critical path;81;Deviation;0.24691358024691357
-File name;instances\j12060_3.sm;Fitness;121;Critical path;81;Deviation;0.49382716049382713
-File name;instances\j12060_4.sm;Fitness;143;Critical path;101;Deviation;0.4158415841584158
-File name;instances\j12060_5.sm;Fitness;148;Critical path;96;Deviation;0.5416666666666666
-File name;instances\j12060_6.sm;Fitness;133;Critical path;110;Deviation;0.20909090909090908
-File name;instances\j12060_7.sm;Fitness;123;Critical path;84;Deviation;0.4642857142857143
-File name;instances\j12060_8.sm;Fitness;135;Critical path;101;Deviation;0.33663366336633666
-File name;instances\j12060_9.sm;Fitness;115;Critical path;101;Deviation;0.13861386138613863
-File name;instances\j1206_1.sm;Fitness;210;Critical path;75;Deviation;1.8
-File name;instances\j1206_10.sm;Fitness;242;Critical path;93;Deviation;1.6021505376344085
-File name;instances\j1206_2.sm;Fitness;215;Critical path;72;Deviation;1.9861111111111112
-File name;instances\j1206_3.sm;Fitness;197;Critical path;85;Deviation;1.3176470588235294
-File name;instances\j1206_4.sm;Fitness;270;Critical path;98;Deviation;1.7551020408163265
-File name;instances\j1206_5.sm;Fitness;195;Critical path;72;Deviation;1.7083333333333333
-File name;instances\j1206_6.sm;Fitness;226;Critical path;71;Deviation;2.183098591549296
-File name;instances\j1206_7.sm;Fitness;243;Critical path;112;Deviation;1.1696428571428572
-File name;instances\j1206_8.sm;Fitness;234;Critical path;103;Deviation;1.2718446601941749
-File name;instances\j1206_9.sm;Fitness;234;Critical path;87;Deviation;1.6896551724137931
-File name;instances\j1207_1.sm;Fitness;156;Critical path;76;Deviation;1.0526315789473684
-File name;instances\j1207_10.sm;Fitness;176;Critical path;84;Deviation;1.0952380952380953
-File name;instances\j1207_2.sm;Fitness;190;Critical path;98;Deviation;0.9387755102040817
-File name;instances\j1207_3.sm;Fitness;151;Critical path;90;Deviation;0.6777777777777778
-File name;instances\j1207_4.sm;Fitness;155;Critical path;85;Deviation;0.8235294117647058
-File name;instances\j1207_5.sm;Fitness;196;Critical path;87;Deviation;1.2528735632183907
-File name;instances\j1207_6.sm;Fitness;168;Critical path;96;Deviation;0.75
-File name;instances\j1207_7.sm;Fitness;197;Critical path;93;Deviation;1.118279569892473
-File name;instances\j1207_8.sm;Fitness;147;Critical path;65;Deviation;1.2615384615384615
-File name;instances\j1207_9.sm;Fitness;128;Critical path;79;Deviation;0.620253164556962
-File name;instances\j1208_1.sm;Fitness;148;Critical path;95;Deviation;0.5578947368421052
-File name;instances\j1208_10.sm;Fitness;132;Critical path;83;Deviation;0.5903614457831325
-File name;instances\j1208_2.sm;Fitness;159;Critical path;90;Deviation;0.7666666666666667
-File name;instances\j1208_3.sm;Fitness;142;Critical path;88;Deviation;0.6136363636363636
-File name;instances\j1208_4.sm;Fitness;153;Critical path;89;Deviation;0.7191011235955056
-File name;instances\j1208_5.sm;Fitness;166;Critical path;91;Deviation;0.8241758241758241
-File name;instances\j1208_6.sm;Fitness;134;Critical path;82;Deviation;0.6341463414634146
-File name;instances\j1208_7.sm;Fitness;142;Critical path;87;Deviation;0.632183908045977
-File name;instances\j1208_8.sm;Fitness;122;Critical path;87;Deviation;0.40229885057471265
-File name;instances\j1208_9.sm;Fitness;137;Critical path;83;Deviation;0.6506024096385542
-File name;instances\j1209_1.sm;Fitness;124;Critical path;88;Deviation;0.4090909090909091
-File name;instances\j1209_10.sm;Fitness;127;Critical path;84;Deviation;0.5119047619047619
-File name;instances\j1209_2.sm;Fitness;120;Critical path;94;Deviation;0.2765957446808511
-File name;instances\j1209_3.sm;Fitness;129;Critical path;87;Deviation;0.4827586206896552
-File name;instances\j1209_4.sm;Fitness;121;Critical path;80;Deviation;0.5125
-File name;instances\j1209_5.sm;Fitness;123;Critical path;114;Deviation;0.07894736842105263
-File name;instances\j1209_6.sm;Fitness;142;Critical path;98;Deviation;0.4489795918367347
-File name;instances\j1209_7.sm;Fitness;101;Critical path;80;Deviation;0.2625
-File name;instances\j1209_8.sm;Fitness;101;Critical path;80;Deviation;0.2625
-File name;instances\j1209_9.sm;Fitness;113;Critical path;87;Deviation;0.2988505747126437
+File_name;instances\j12010_1.sm;FileNr;1;Cycles;50000;PopulationSize;10653;Fitness;140;Critical_path;111;Deviation;0.26126126126126126
+File_name;instances\j12010_10.sm;FileNr;2;Cycles;49999;PopulationSize;13302;Fitness;79;Critical_path;66;Deviation;0.19696969696969696
+File_name;instances\j12010_1.sm;FileNr;1;Cycles;50;PopulationSize;18;Fitness;151;Critical_path;111;Deviation;0.36036036036036034;UID;_1_3_2_4_7_9_21_20_14_27_5_26_30_37_68_8_13_6_40_22_55_41_45_11_16_51_10_61_96_36_17_28_31_32_69_29_33_35_72_76_34_77_53_71_81_48_24_90_18_42_25_38_60_84_65_88_44_67_62_56_54_43_12_57_49_97_66_15_73_63_47_83_70_86_80_98_100_85_64_19_95_39_103_93_52_104_118_23_58_82_74_92_79_116_78_106_94_101_87_102_91_108_46_120_99_105_50_59_89_107_109_75_115_110_111_121_112
+File_name;instances\j12010_10.sm;FileNr;2;Cycles;50;PopulationSize;11;Fitness;79;Critical_path;66;Deviation;0.19696969696969696;UID;_1_3_2_4_10_12_9_8_27_29_56_28_25_42_5_15_61_13_6_35_7_30_16_48_44_53_23_20_11_31_59_38_60_70_34_85_32_57_67_54_101_76_78_68_72_24_43_80_22_73_18_87_62_77_83_17_103_47_14_39_102_37_45_50_19_26_41_91_100_40_21_33_79_46_98_55_49_36_65_51_52_114_69_74_63_81_105_90_66_64_58_75_82_71_95_99_88_84_93_92_96_94_106_107_109_110_97_89_104_86_108_113_116_112_121_111_118_115_117_119_120
+File_name;instances\j12010_2.sm;FileNr;3;Cycles;50;PopulationSize;19;Fitness;107;Critical_path;91;Deviation;0.17582417582417584;UID;_1_4_3_2_17_49_14_57_22_9_10_54_6_5_11_18_12_34_23_21_7_8_16_59_35_15_41_43_20_29_37_60_27_31_33_25_63_30_48_19_45_55_39_93_86_77_47_64_13_82_72_80_95_38_28_36_101_42_32_118_90_24_58_110_61_40_74_70_46_52_26_62_56_75_87_69_73_89_84_76_51_66_44_79_94_103_107_78_105_97_81_112_53_67_113_91_99_68_83_65_115_50_96_108_117_106_71_120_85_88_109_100_98_92_102_111_116_121_104_114_119
+File_name;instances\j12010_3.sm;FileNr;4;Cycles;50;PopulationSize;16;Fitness;135;Critical_path;99;Deviation;0.36363636363636365;UID;_1_3_4_2_6_80_11_33_14_5_59_20_51_7_44_29_9_8_16_70_19_21_96_82_32_10_23_43_42_17_86_37_46_27_34_12_50_65_38_15_28_22_45_54_13_55_18_36_73_25_68_40_35_24_69_56_84_63_48_66_41_31_30_81_89_78_53_83_57_87_39_106_72_97_75_107_60_88_98_58_79_74_26_49_76_99_104_64_85_90_102_94_92_93_112_62_114_111_71_100_95_105_101_103_110_47_61_109_67_118_52_113_77_108_116_91_121_120_115
+File_name;instances\j12010_4.sm;FileNr;5;Cycles;50;PopulationSize;22;Fitness;121;Critical_path;95;Deviation;0.2736842105263158;UID;_1_2_3_4_34_5_6_32_31_27_7_13_29_35_44_72_57_37_9_28_40_75_61_100_67_95_73_78_65_68_45_8_41_20_71_10_30_14_11_19_54_24_33_12_76_38_17_47_70_50_48_15_26_79_62_51_86_16_18_21_22_63_69_80_55_53_60_25_43_39_56_81_107_93_82_85_64_97_59_49_23_98_46_74_87_88_83_109_66_108_77_36_52_58_92_111_42_90_91_84_94_99_89_105_101_96_104_114_102_115_110_112_103_106_118_116_113_117_120_119_121
+File_name;instances\j12010_5.sm;FileNr;6;Cycles;49;PopulationSize;12;Fitness;123;Critical_path;97;Deviation;0.26804123711340205;UID;_1_3_2_4_10_23_8_9_11_14_28_37_16_33_42_30_53_24_64_40_5_19_20_71_59_50_17_7_39_21_18_60_13_49_83_27_25_58_82_62_54_22_97_29_96_77_79_31_41_70_68_38_46_57_35_100_12_51_6_75_32_89_36_52_56_86_87_15_26_80_104_43_34_73_45_47_90_113_63_81_66_99_76_55_98_95_114_105_48_69_120_44_67_72_85_78_109_84_101_61_112_103_88_121_91_74_65_94_106_92_102_111_93_107_110_108_115_118_116_117_119
+File_name;instances\j12010_6.sm;FileNr;7;Cycles;50;PopulationSize;18;Fitness;97;Critical_path;92;Deviation;0.05434782608695652;UID;_1_2_4_3_26_15_10_5_23_34_72_53_32_55_82_19_54_44_29_25_33_41_31_63_75_66_73_7_6_8_13_12_91_14_11_9_17_46_27_22_51_83_16_49_18_28_36_20_30_67_61_39_24_37_38_65_40_92_35_21_68_69_86_80_42_43_103_87_47_77_70_52_78_45_93_56_58_94_88_48_84_64_50_59_96_62_105_85_76_81_111_98_57_79_71_101_60_90_97_99_95_74_89_108_109_100_106_116_104_113_110_112_107_115_102_114_118_121_117_120_119
+File_name;instances\j12010_7.sm;FileNr;8;Cycles;50;PopulationSize;20;Fitness;118;Critical_path;79;Deviation;0.4936708860759494;UID;_1_2_4_16_10_12_7_35_17_29_33_27_19_25_32_46_41_86_51_34_39_100_83_93_3_14_38_50_18_21_20_22_82_40_47_63_30_8_5_49_53_81_55_54_68_23_31_36_26_9_6_89_84_94_102_24_58_44_13_75_42_43_79_59_62_70_78_52_56_105_66_74_88_65_28_112_11_60_77_37_69_95_98_96_87_15_114_48_80_57_97_61_73_113_45_64_76_91_109_118_72_106_85_71_67_120_107_110_92_115_116_90_101_103_104_99_108_111_117_119_121
+File_name;instances\j12010_8.sm;FileNr;9;Cycles;50;PopulationSize;14;Fitness;143;Critical_path;114;Deviation;0.2543859649122807;UID;_1_2_4_3_5_7_17_6_25_34_13_23_115_77_32_19_16_12_83_90_66_60_8_70_9_36_84_11_26_41_37_71_10_87_15_74_24_59_14_22_20_31_40_18_21_56_52_65_29_27_108_39_113_35_38_48_88_50_53_49_46_58_47_61_62_51_54_85_64_92_78_95_79_28_121_100_93_45_97_42_30_81_44_63_55_67_43_33_72_57_99_68_76_73_107_69_101_102_82_75_86_91_80_103_89_94_109_98_105_112_111_96_116_106_114_104_110_117
+File_name;instances\j12010_9.sm;FileNr;10;Cycles;50;PopulationSize;17;Fitness;94;Critical_path;77;Deviation;0.22077922077922077;UID;_1_2_3_4_5_16_23_17_7_39_41_6_100_43_12_9_10_13_24_29_37_21_44_46_27_70_57_49_61_79_34_32_59_66_64_20_47_105_25_83_48_55_62_14_8_40_75_35_33_42_52_51_76_82_56_68_94_15_58_45_18_78_50_89_11_71_93_74_30_54_36_38_98_86_103_60_53_110_63_80_77_26_19_85_67_87_81_73_114_90_101_22_69_97_65_28_31_92_104_99_109_113_84_88_72_102_95_120_121_106_108_91_111_96_115_116_107_112_118_117_119
+File_name;instances\j12011_1.sm;FileNr;11;Cycles;50;PopulationSize;11;Fitness;243;Critical_path;90;Deviation;1.7;UID;_1_3_2_5_14_15_25_18_23_7_48_64_37_20_68_26_39_29_46_42_17_24_4_33_51_16_62_8_27_31_65_59_19_63_22_83_100_30_6_10_50_9_11_43_56_36_47_21_49_74_85_71_67_40_79_104_75_34_12_90_76_92_106_55_45_109_81_78_89_105_69_98_82_96_54_86
+File_name;instances\j12011_10.sm;FileNr;12;Cycles;50;PopulationSize;14;Fitness;259;Critical_path;90;Deviation;1.8777777777777778;UID;_1_2_16_90_36_4_54_57_18_25_30_41_93_3_6_13_75_51_12_8_84_23_17_24_95_68_31_106_87_47_27_73_74_49_35_10_92_48_21_19_52_28_55_44_37_82_69_71_7_39_67_15_14_64_20_26_29_50_58_45_33_62_61_83_40_59_70_63_34
+File_name;instances\j12011_2.sm;FileNr;13;Cycles;50;PopulationSize;24;Fitness;216;Critical_path;78;Deviation;1.7692307692307692;UID;_1_2_44_86_72_70_3_78_17_32_24_69_45_35_58_51_79_62_97_13_74_27_28_42_55_29_36_40_33_67_43_82_68_4_91_87_41_9_12_5_21_25_15_6_30_19_102_71_26_7_80_76_85_8_57_10_20_38_101_37_39_73_50_59_94_96_16_18_22_60_46_47_49_52_106_108_56_92_63_11
+File_name;instances\j12011_3.sm;FileNr;14;Cycles;50;PopulationSize;12;Fitness;286;Critical_path;93;Deviation;2.075268817204301;UID;_1_4_42_14_2_54_16_15_24_75_39_87_30_3_35_5_26_37_44_7_9_19_13_23_58_47_79_84_6_17_22_98_59_38_48_103_55_92_36_99_50_8_31_10_11_12_27_96_41_46_43_29_21_61_70_18_28_25
+File_name;instances\j12011_4.sm;FileNr;15;Cycles;50;PopulationSize;12;Fitness;274;Critical_path;96;Deviation;1.8541666666666667;UID;_1_3_2_5_9_10_6_12_68_17_18_61_42_71_22_67_23_46_53_65_7_99_14_24_36_27_84_28_11_48_50_40_75_55_77_4_54_96_13_15_31_16_62_87_100_20_73_78_26_30_21_69_97_81_51_41_60_35_49_63_76_8_33_47_25_37_91_56_86_58
+File_name;instances\j12011_5.sm;FileNr;16;Cycles;50;PopulationSize;11;Fitness;333;Critical_path;97;Deviation;2.4329896907216493;UID;_1_3_4_2_8_5_6_25_42_10_68_9_33_54_11_80_18_26_27_39_14_36_7_94_19_24_13_29_28_58_12_15_16_85_17_61_46_20_66_31_77_41_35_86_92_60_104_106_111_76_43_45_52_44_22_34_49_30
+File_name;instances\j12011_6.sm;FileNr;17;Cycles;50;PopulationSize;15;Fitness;309;Critical_path;91;Deviation;2.3956043956043955;UID;_1_3_39_38_2_13_16_7_11_32_46_23_37_4_48_26_62_27_34_66_54_55_14_29_67_79_72_8_43_17_20_74_57_25_31_45_50_80_85_51_93_88_69_5_9_18_10_22_6
+File_name;instances\j12011_7.sm;FileNr;18;Cycles;50;PopulationSize;16;Fitness;232;Critical_path;82;Deviation;1.829268292682927;UID;_1_3_4_9_7_73_8_10_13_16_14_15_65_19_28_87_2_24_6_20_35_90_23_48_11_21_12_38_17_101_31_85_43_36_42_92_49_50_51_56_94_78_66_5_40_91_18_62_25_44_103_98_41_26_47_32_82_84_34_63_69_45_59_77_37_68_53_29_30_71_61_75_22_58_79_112_33_39_96_81_57
+File_name;instances\j12011_8.sm;FileNr;19;Cycles;50;PopulationSize;16;Fitness;224;Critical_path;95;Deviation;1.3578947368421053;UID;_1_2_3_4_6_11_113_39_5_19_60_7_13_97_50_8_74_24_12_42_92_49_10_57_16_26_80_15_51_56_36_69_17_66_67_79_34_41_59_90_38_30_75_20_46_78_21_25_18_31_22_58_82_53_9_35_63_64_43_40_76_83_68_95_72_101_14_55_104_52_27_48_23_37_44_33_29_110_28
+File_name;instances\j12011_9.sm;FileNr;20;Cycles;50;PopulationSize;10;Fitness;250;Critical_path;76;Deviation;2.289473684210526;UID;_1_3_49_10_11_57_24_12_103_53_27_16_28_40_38_32_95_60_25_39_47_62_2_83_76_54_61_65_64_94_4_58_8_73_21_41_5_98_67_63_7_20_19_13_43_46_15_18_22_70_42_34_108_51_92_23_44_101_89_37_72_50_30_75
+File_name;instances\j12012_1.sm;FileNr;21;Cycles;50;PopulationSize;20;Fitness;194;Critical_path;94;Deviation;1.0638297872340425;UID;_1_3_4_6_12_38_65_14_52_15_57_19_33_67_96_5_2_39_85_50_79_28_41_68_92_30_48_72_59_7_8_10_9_17_27_13_47_25_21_16_23_24_76_11_87_69_40_37_77_31_20_42_35_49_44_83_73_82_34_53_93_55_43_60_78_74_32_36_51_70_61_46_91_100_22_102_88_71_80_116_45_26_54_89_29_66_99_97_58_56_107_108_118_64_106_63_18_75_86
+File_name;instances\j12012_10.sm;FileNr;22;Cycles;50;PopulationSize;17;Fitness;193;Critical_path;84;Deviation;1.2976190476190477;UID;_1_3_2_4_6_5_14_10_15_61_12_43_20_37_9_28_44_58_66_89_36_69_76_22_31_26_16_17_32_103_35_21_68_54_67_50_42_74_72_63_92_49_7_64_11_53_59_8_78_91_19_18_38_13_33_24_51_23_46_81_25_40_71_45_52_47_56_27_85_48_93_30_65_29_82_99_87_101_80_100_109_108_57_60_113_94_34_83
+File_name;instances\j12012_2.sm;FileNr;23;Cycles;50;PopulationSize;19;Fitness;162;Critical_path;72;Deviation;1.25;UID;_1_3_2_4_74_20_6_5_10_13_11_14_63_22_17_27_26_45_39_56_96_48_72_33_18_7_57_94_66_86_30_28_61_68_15_50_41_58_40_8_60_44_47_32_49_37_35_59_77_43_52_42_64_71_25_19_67_79_85_98_107_24_46_9_100_54_112_29_53_78_75_92_83_95_76_62_84_38_82_89_97_70_114_91_12_108_81_104_113_69_16_93_23_65_51_21_31_101_87_109_34_111_99_36_55_115_80_73_120
+File_name;instances\j12012_3.sm;FileNr;24;Cycles;50;PopulationSize;17;Fitness;184;Critical_path;84;Deviation;1.1904761904761905;UID;_1_3_4_2_19_23_80_86_11_49_21_6_77_51_92_65_10_5_83_27_9_12_31_28_39_7_78_13_8_22_32_41_14_59_44_30_20_72_34_15_37_69_91_84_54_43_71_56_73_17_16_82_81_26_68_24_46_48_67_18_58_57_53_66_55_96_61_104_35_76_111_115_25_102_93_120_38_33_74_94_101_47_62_75_110_52_40_36
+File_name;instances\j12012_4.sm;FileNr;25;Cycles;50;PopulationSize;21;Fitness;176;Critical_path;94;Deviation;0.8723404255319149;UID;_1_2_3_4_6_5_12_7_19_8_18_40_17_20_63_26_10_47_9_25_44_93_30_32_95_54_41_43_104_98_33_23_62_55_37_42_64_82_38_34_28_16_49_56_13_15_53_21_66_29_31_88_24_57_71_86_67_83_113_105_59_114_69_50_87_68_22_90_77_99_73_79_96_11_74_103_14_84_36_35_80_116_46_39_61_58_60_51_65_70_72_91_100_85_102_76_27_106
+File_name;instances\j12012_5.sm;FileNr;26;Cycles;50;PopulationSize;14;Fitness;240;Critical_path;98;Deviation;1.4489795918367347;UID;_1_4_2_10_9_22_65_13_110_40_24_18_79_72_28_23_48_41_3_85_73_49_7_8_11_12_91_19_15_59_67_26_36_105_27_17_61_58_68_53_25_82_5_35_83_64_14_60_84_37_106_38_30_76_45_66_31_90_50_71_54_97_29_80_43_63_95_98_69_55
+File_name;instances\j12012_6.sm;FileNr;27;Cycles;50;PopulationSize;30;Fitness;166;Critical_path;82;Deviation;1.024390243902439;UID;_1_3_2_6_8_17_19_30_10_41_20_25_11_7_28_94_42_101_13_26_53_38_22_88_43_16_35_32_23_52_9_36_15_73_60_48_46_51_95_86_24_4_57_97_27_12_37_5_14_59_58_31_55_68_64_76_80_75_78_89_29_83_50_91_96_18_18_65_71_79_70_33_34_54_90_77_63_66_72_61_92_82_49_21_56_99_108_105_81_74_39_62_109_87_84_114_40_67_93_102_111_69_45_85_98_103_106
+File_name;instances\j12012_7.sm;FileNr;28;Cycles;50;PopulationSize;6;Fitness;201;Critical_path;83;Deviation;1.4216867469879517;UID;_1_2_21_38_32_27_41_60_69_75_53_28_81_58_72_3_65_98_22_8_9_13_17_4_19_18_33_97_25_30_47_62_11_5_6_23_73_43_52_56_76_55_96_7_61_10_105_14_26_20_24_29_37_49_89_66_31_59_50_90_108_63_94_88_34_86_95_16_67_40_71_68_45_46_84_93_82_79_100_103_99
+File_name;instances\j12012_8.sm;FileNr;29;Cycles;50;PopulationSize;22;Fitness;150;Critical_path;72;Deviation;1.0833333333333333;UID;_1_2_3_4_5_19_6_22_65_24_38_16_9_28_71_42_33_59_37_67_39_29_26_70_18_41_88_96_44_30_46_55_77_48_8_62_12_64_10_13_45_66_15_32_14_27_21_36_11_68_31_35_51_47_72_17_43_78_58_74_76_60_81_82_103_20_7_49_75_52_50_23_57_98_54_85_73_34_86_63_69_53_80_61_101_107_40_92_90_104_87_79_84_106_89_94_97_110_83_111_25_105_102_99_112_93_100
+File_name;instances\j12012_9.sm;FileNr;30;Cycles;50;PopulationSize;20;Fitness;149;Critical_path;77;Deviation;0.935064935064935;UID;_1_4_3_2_7_8_11_49_13_6_25_18_14_43_85_27_32_22_60_9_5_66_29_10_42_26_46_72_76_16_39_83_12_23_15_40_88_48_24_19_84_44_31_71_74_36_99_57_17_80_81_28_54_51_47_33_89_65_64_82_38_106_91_104_97_34_102_67_52_20_37_69_59_55_86_63_93_95_70_101_68_41_78_92_21_96_30_61_50_75_45_35_90_62_53_56_79_110_87_58_73_107_105_94_103_77_111_98_115_109_113_116_108_117
+File_name;instances\j12013_1.sm;FileNr;31;Cycles;50;PopulationSize;10;Fitness;174;Critical_path;121;Deviation;0.4380165289256198;UID;_1_2_19_6_5_23_20_35_70_58_4_32_13_88_3_42_55_75_7_9_73_11_78_109_17_10_52_24_54_43_21_53_79_12_39_26_41_80_59_64_49_68_14_31_69_81_74_56_15_94_82_25_38_45_47_30_93_104_22_60_66_27_33_37_40_16_62_98_61_18_46_36_48_29_97_65_83_92_87_95_71_91_34_85_111_50_101_51_86_110_114_57_100_28_103_63_8
+File_name;instances\j12013_10.sm;FileNr;32;Cycles;50;PopulationSize;9;Fitness;122;Critical_path;78;Deviation;0.5641025641025641;UID;_1_2_3_4_7_8_48_33_16_15_18_60_40_5_6_25_42_55_79_58_46_49_9_11_12_10_27_20_26_68_28_13_32_29_57_106_69_17_21_54_35_34_75_14_43_22_76_30_56_65_47_72_39_51_64_77_80_23_90_52_50_71_66_63_41_81_31_45_93_70_83_19_61_73_92_82_91_95_74_84_59_113_37_88_86_97_62_78_24_38_67_99_100_87_36_107_108_98_111_53_101_89_105_121_85_103_104_110_96_44_116_109_117_102_94_115_118_112_120_114_119
+File_name;instances\j12013_2.sm;FileNr;33;Cycles;50;PopulationSize;23;Fitness;121;Critical_path;72;Deviation;0.6805555555555556;UID;_1_3_2_4_12_6_15_7_22_16_33_19_13_34_20_23_8_37_58_54_73_47_24_51_83_43_84_57_50_62_69_82_87_25_52_35_30_49_36_21_44_38_89_64_63_27_79_110_66_99_48_40_81_10_80_46_56_70_71_18_11_14_65_29_76_90_42_78_77_55_68_53_60_61_86_5_103_67_114_96_41_17_59_85_100_32_72_93_98_9_106_97_94_102_111_74_109_91_26_118_28_45_31_92_39_75_88_105_104_115_95_101_120_108_113_107_116_117_112_121_119
+File_name;instances\j12013_3.sm;FileNr;34;Cycles;50;PopulationSize;24;Fitness;173;Critical_path;106;Deviation;0.6320754716981132;UID;_1_4_2_3_24_8_7_11_33_37_32_48_21_69_89_22_13_20_73_12_57_55_26_75_60_14_66_15_16_17_18_79_51_50_61_92_64_103_109_54_38_28_49_63_5_35_31_36_82_42_56_41_6_45_94_59_81_80_23_84_47_68_88_9_19_70_29_10_34_27_30_67_25_96_87_43_39_44_93_40_58_97_102_106_53_83_77_74_62_46_72_99_104_78_110_71_85_65_107_52_101_90_86
+File_name;instances\j12013_4.sm;FileNr;35;Cycles;50;PopulationSize;18;Fitness;152;Critical_path;88;Deviation;0.7272727272727273;UID;_1_2_3_4_28_44_14_81_13_6_40_24_88_17_11_5_33_45_19_8_46_51_48_89_57_29_9_79_70_36_12_16_23_27_30_83_72_41_26_10_77_91_66_42_90_22_15_38_50_69_67_31_84_86_99_32_39_115_68_35_47_104_7_55_103_75_49_18_56_37_25_20_60_58_63_71_21_98_59_52_74_97_87_65_73_105_34_101_92_80_93_100_111_54_43_108_61_53_96_107_62_78_106_76_85_110_64
+File_name;instances\j12013_5.sm;FileNr;36;Cycles;50;PopulationSize;22;Fitness;134;Critical_path;79;Deviation;0.6962025316455697;UID;_1_2_4_3_46_6_27_65_5_19_8_42_7_88_13_24_14_10_11_50_9_33_29_41_31_60_17_25_72_99_52_61_95_86_68_55_54_101_96_21_78_84_71_81_89_107_110_43_23_49_73_38_76_94_35_37_75_12_32_53_70_62_15_64_48_28_59_79_66_18_16_80_77_39_40_45_87_63_44_102_47_74_82_20_67_69_103_22_36_90_57_85_26_51_100_58_91_106_30_83_56_34_109_105_92_115_97_112_93_113_104_108_98_114_111_117_116_121_118_120
+File_name;instances\j12013_6.sm;FileNr;37;Cycles;50;PopulationSize;29;Fitness;145;Critical_path;86;Deviation;0.686046511627907;UID;_1_2_3_4_34_30_17_7_8_38_58_22_9_16_10_67_5_28_11_37_13_53_66_36_18_15_25_46_39_72_61_56_33_59_21_88_75_45_41_73_6_78_63_26_68_23_12_49_31_24_82_57_44_65_86_27_29_48_106_95_71_74_42_102_110_35_55_84_54_19_83_60_101_108_14_80_98_20_69_92_40_62_89_97_81_51_93_43_118_47_50_70_32_79_76_52_94_64_99_85_105_100_77_109_87_112_91_103_111_107_116_90_96_120_113_117_104_119
+File_name;instances\j12013_7.sm;FileNr;38;Cycles;50;PopulationSize;22;Fitness;152;Critical_path;105;Deviation;0.44761904761904764;UID;_1_3_2_4_8_13_15_5_16_111_27_89_82_36_44_20_18_6_12_14_29_21_53_79_25_45_24_10_61_7_57_26_60_54_69_38_9_34_49_19_48_73_17_43_88_42_66_56_47_62_28_58_35_31_32_112_67_86_103_75_50_51_84_65_63_52_23_11_72_30_70_77_71_33_98_39_96_68_40_97_94_95_22_55_81_91_64_90_37_93_41_102_74_76_85_78_105_83_46_106_92_59_80_101_104_107_114_100_87_117_116_119_99
+File_name;instances\j12013_8.sm;FileNr;39;Cycles;50;PopulationSize;25;Fitness;145;Critical_path;87;Deviation;0.6666666666666666;UID;_1_4_2_3_9_21_24_10_7_5_6_8_87_11_12_15_27_38_56_18_13_74_44_20_31_26_48_39_40_76_22_69_55_62_41_46_47_94_16_17_58_51_53_59_19_36_54_29_49_30_37_28_99_72_64_78_52_57_91_23_32_43_45_73_107_85_75_81_33_95_34_50_61_14_60_83_63_84_79_65_35_25_67_111_86_97_108_121_68_101_93_70_77_92_114_103_42_71_66_102_82_80_98_106_100_88_89_112_105_113_96_90_104_117_109_110_115
+File_name;instances\j12013_9.sm;FileNr;40;Cycles;50;PopulationSize;26;Fitness;124;Critical_path;77;Deviation;0.6103896103896104;UID;_1_2_3_4_8_10_5_29_16_56_9_15_59_46_30_60_6_75_65_34_20_43_96_11_55_74_25_53_36_72_66_79_52_83_37_78_69_14_28_17_22_12_18_88_39_38_19_40_103_44_49_67_54_80_50_57_42_70_68_51_86_47_97_26_102_85_77_23_7_94_99_108_110_105_31_35_13_64_61_111_21_27_24_89_73_76_98_91_41_48_92_32_81_90_118_33_84_45_71_82_101_62_107_58_87_104_95_109_63_93_121_100_106_113_114_112_115_120_116_117
+File_name;instances\j12014_1.sm;FileNr;41;Cycles;50;PopulationSize;25;Fitness;109;Critical_path;81;Deviation;0.345679012345679;UID;_1_3_2_4_19_10_48_30_20_8_12_5_6_40_77_31_16_44_11_14_42_60_56_27_64_85_86_13_33_25_50_74_90_55_23_66_7_54_58_51_36_59_43_94_49_35_18_83_46_15_9_24_17_63_21_61_75_57_73_53_29_38_96_89_92_22_69_68_52_39_67_62_26_78_41_45_109_88_82_70_72_99_47_91_80_76_28_37_84_95_79_107_32_110_112_97_81_65_98_34_106_108_71_93_116_87_102_111_100_113_101_117_104_115_103_105_114_118_119_120_121
+File_name;instances\j12014_10.sm;FileNr;42;Cycles;50;PopulationSize;22;Fitness;107;Critical_path;80;Deviation;0.3375;UID;_1_3_4_2_6_44_5_29_7_9_19_47_45_43_8_48_65_11_13_10_69_46_28_21_90_51_41_17_14_25_16_75_78_106_22_20_56_107_92_62_30_40_24_23_79_33_26_15_35_50_73_36_63_59_38_60_49_85_84_68_42_93_54_67_115_100_74_87_76_57_66_18_27_12_114_58_82_86_72_70_31_39_64_88_91_32_55_34_53_37_98_94_96_71_80_113_101_105_81_52_77_111_102_89_97_109_99_117_61_103_108_83_120_104_112_119_110_95_116_118_121
+File_name;instances\j12014_2.sm;FileNr;43;Cycles;50;PopulationSize;21;Fitness;128;Critical_path;86;Deviation;0.4883720930232558;UID;_1_2_3_4_5_51_6_68_69_9_21_7_30_26_57_15_8_10_18_13_12_73_38_14_53_75_24_28_23_27_64_78_40_35_33_90_76_48_50_31_60_71_98_20_16_65_19_103_109_32_25_44_84_22_115_11_101_92_89_34_62_49_45_39_82_106_63_72_17_85_47_61_52_29_37_41_70_59_99_88_86_58_54_55_36_87_66_80_74_56_81_77_46_67_42_113_100_83_43_91_95_102_79_94_97_104_107_112_105_93_110_108_111_118_96_114_121_119_116_117_120
+File_name;instances\j12014_3.sm;FileNr;44;Cycles;50;PopulationSize;26;Fitness;119;Critical_path;88;Deviation;0.3522727272727273;UID;_1_4_2_3_28_21_9_12_7_63_48_18_22_30_54_67_41_17_10_16_71_40_35_11_105_59_42_27_39_45_66_5_68_14_23_25_69_70_55_24_6_32_49_83_8_43_85_62_37_19_84_56_26_20_36_15_76_92_89_46_64_73_81_34_29_99_13_47_53_57_78_65_33_61_77_102_88_82_44_93_75_94_51_86_103_50_97_109_91_108_52_101_96_60_31_58_104_74_100_79_38_110_72_80_120_90_111_95_87_115_98_116_117_106_107_114_112_113_118_119_121
+File_name;instances\j12014_4.sm;FileNr;45;Cycles;50;PopulationSize;21;Fitness;133;Critical_path;85;Deviation;0.5647058823529412;UID;_1_3_2_9_17_8_5_6_21_23_7_30_14_46_49_92_20_80_24_11_72_18_27_39_40_54_51_4_73_50_29_61_32_63_19_66_56_52_64_16_70_65_42_37_38_36_93_22_47_108_69_13_31_67_53_74_25_33_44_55_85_75_71_104_84_62_107_10_58_26_110_81_116_109_83_28_12_15_68_43_45_79_35_59_48_34_78_100_88_57_98_121_82_60_87_90_41_105_91_77_86_76_111_99_89_95_97_94_115_113_101_96_102_114_103_106_112_118_117
+File_name;instances\j12014_5.sm;FileNr;46;Cycles;50;PopulationSize;21;Fitness;144;Critical_path;90;Deviation;0.6;UID;_1_3_4_2_20_16_18_24_37_7_6_29_26_83_30_32_13_51_10_21_9_33_38_23_62_41_11_75_54_40_8_73_47_65_52_25_56_98_76_91_60_42_15_68_5_59_36_58_44_72_69_19_95_80_48_104_12_105_79_14_39_17_27_45_53_22_103_28_55_49_81_107_74_96_61_67_35_85_112_71_115_70_101_78_100_93_57_82_63_116_31_102_77_99_43_50_34_87_46_64_88_84_86_109_108_89_94_92_66_120_114_110_117_97_113_90_106
+File_name;instances\j12014_6.sm;FileNr;47;Cycles;50;PopulationSize;17;Fitness;122;Critical_path;91;Deviation;0.34065934065934067;UID;_1_3_4_2_23_8_42_85_5_82_9_10_11_12_15_18_17_19_30_13_29_49_27_22_24_6_43_21_60_32_57_71_20_25_38_62_76_81_74_50_52_105_14_31_46_95_67_68_16_59_114_26_47_80_48_66_65_77_88_28_34_61_33_35_111_101_96_39_72_36_78_87_44_69_54_37_51_7_56_45_40_98_86_90_53_94_79_70_75_107_91_103_118_63_55_92_112_89_41_113_64_84_58_83_99_73_100_110_102_97_93_117_104_106_108_121_109_115_119_116_120
+File_name;instances\j12014_7.sm;FileNr;48;Cycles;50;PopulationSize;27;Fitness;131;Critical_path;89;Deviation;0.47191011235955055;UID;_1_4_2_3_5_92_9_8_16_15_11_37_51_6_17_7_19_29_32_73_40_67_26_23_39_22_74_65_62_46_58_76_56_30_18_61_31_43_33_27_35_89_54_36_47_86_69_84_85_45_91_99_75_101_28_10_42_71_70_41_79_38_90_44_57_102_13_12_107_94_14_96_60_49_20_25_77_106_66_81_105_53_109_21_24_55_59_34_103_48_72_82_52_108_93_63_64_80_87_120_78_83_117_116_100_104_95_88_50_112_118_68_97_119_98_110_113_111_114_115_121
+File_name;instances\j12014_8.sm;FileNr;49;Cycles;50;PopulationSize;19;Fitness;152;Critical_path;101;Deviation;0.504950495049505;UID;_1_3_4_26_63_58_33_2_7_72_25_28_71_78_32_45_31_5_30_37_77_48_8_6_22_110_74_14_11_10_107_15_9_12_13_36_19_34_20_21_98_52_16_81_53_23_89_40_61_94_17_27_76_82_43_41_29_24_35_79_47_51_109_54_91_80_90_95_60_38_18_115_59_42_49_62_113_55_46_96_64_75_83_68_105_39_66_100_84_87_101_73_88_70_50_92_117_44_69_65_56_99_93_104_103_86_85_119_57_67
+File_name;instances\j12014_9.sm;FileNr;50;Cycles;50;PopulationSize;20;Fitness;123;Critical_path;101;Deviation;0.21782178217821782;UID;_1_4_3_2_13_23_31_56_22_5_11_34_92_7_80_37_9_42_46_32_47_88_21_85_14_33_10_49_15_86_29_28_18_41_52_43_39_65_57_93_75_77_99_60_40_44_91_6_12_90_51_87_100_8_64_71_105_108_17_19_16_78_20_26_54_66_27_81_50_58_69_94_25_59_63_67_36_30_83_104_115_68_70_45_106_101_72_24_73_76_107_97_53_89_61_35_48_74_38_55_114_95_79_62_98_82_96_109_102_84_111_113_110_119_117_103_112_116_118_120_121
+File_name;instances\j12015_1.sm;FileNr;51;Cycles;50;PopulationSize;20;Fitness;107;Critical_path;81;Deviation;0.32098765432098764;UID;_1_3_2_4_6_24_5_11_9_51_46_94_56_23_25_13_31_60_68_39_71_15_14_79_26_27_54_34_63_17_12_53_45_91_48_80_49_7_29_32_40_61_44_85_43_75_100_74_33_101_10_8_64_18_99_106_36_47_82_22_55_66_16_59_38_20_76_57_107_103_69_52_28_72_19_21_30_105_62_109_67_78_86_50_35_96_42_65_118_77_58_87_73_119_93_90_37_41_81_104_89_92_102_95_70_108_83_84_88_114_113_97_98_111_110_121_112_115_116_117_120
+File_name;instances\j12015_10.sm;FileNr;52;Cycles;50;PopulationSize;14;Fitness;108;Critical_path;91;Deviation;0.18681318681318682;UID;_1_2_4_3_5_13_6_10_12_26_17_38_14_58_18_27_19_51_29_62_23_7_20_22_21_89_11_34_44_46_79_40_37_68_25_91_41_43_65_94_45_86_73_93_57_96_15_61_31_47_53_8_75_16_50_49_84_80_78_67_60_9_9_24_42_28_54_48_103_88_71_72_32_55_69_35_66_70_76_82_33_52_99_56_74_36_98_59_83_101_104_63_87_64_107_114_77_95_85_112_106_108_111_92_105_39_97_113_100_117_116_81_110_121_102_90_115_109_118_119_120
+File_name;instances\j12015_2.sm;FileNr;53;Cycles;50;PopulationSize;25;Fitness;96;Critical_path;75;Deviation;0.28;UID;_1_4_3_2_12_18_5_9_31_6_8_7_20_23_37_15_11_26_59_28_36_72_17_42_73_62_53_21_49_89_30_19_81_33_99_83_34_54_68_44_86_90_79_35_27_24_47_71_75_98_51_50_52_70_10_67_100_107_29_57_58_88_60_56_22_77_38_13_66_32_104_74_115_113_16_25_85_112_41_40_45_110_39_61_14_95_76_46_48_63_87_64_97_93_80_43_84_91_55_82_111_106_105_109_69_78_92_65_96_116_108_94_102_101_103_118_114_117_121_119_120
+File_name;instances\j12015_3.sm;FileNr;54;Cycles;50;PopulationSize;20;Fitness;108;Critical_path;87;Deviation;0.2413793103448276;UID;_1_2_3_4_17_65_20_5_27_6_33_9_21_67_57_12_13_19_22_7_39_8_58_41_32_16_70_24_81_51_74_49_48_29_42_10_28_11_55_63_34_60_61_77_73_23_96_53_54_37_91_112_71_88_40_36_62_38_25_14_64_44_18_66_111_89_43_78_15_30_45_26_86_46_35_31_47_50_79_82_87_97_68_52_98_56_101_72_85_93_104_115_83_59_92_76_106_80_69_102_75_107_100_94_109_105_84_90_108_114_95_113_103_99_116_110_120_117_119_118_121
+File_name;instances\j12015_4.sm;FileNr;55;Cycles;50;PopulationSize;19;Fitness;100;Critical_path;82;Deviation;0.21951219512195122;UID;_1_2_4_3_6_8_10_9_39_13_30_44_56_45_52_26_48_5_16_11_71_27_64_7_21_25_33_23_14_29_35_47_34_36_46_32_65_38_80_42_40_76_20_57_19_31_103_89_67_49_60_24_17_22_91_73_104_41_84_12_69_79_55_92_72_98_18_59_78_81_107_97_15_61_43_53_28_37_66_74_116_86_100_62_63_85_77_50_51_88_68_75_102_54_105_83_58_87_70_93_101_90_94_96_95_112_108_82_109_106_111_113_99_118_114_110_117_120_115_121_119
+File_name;instances\j12015_5.sm;FileNr;56;Cycles;50;PopulationSize;23;Fitness;99;Critical_path;87;Deviation;0.13793103448275862;UID;_1_3_2_4_7_9_26_5_10_21_6_16_66_17_34_12_18_64_24_19_78_87_65_45_20_36_22_41_112_54_31_15_82_11_28_69_35_77_43_52_29_71_27_46_57_85_42_30_14_8_72_58_68_37_88_102_61_73_33_23_76_39_119_84_74_38_81_40_92_25_53_51_32_83_97_80_47_13_91_100_70_95_96_48_111_104_101_79_50_55_106_44_56_67_60_59_62_90_113_99_108_49_75_86_109_63_93_89_103_118_94_107_110_98_115_105_120_117_114_116_121
+File_name;instances\j12015_6.sm;FileNr;57;Cycles;50;PopulationSize;17;Fitness;107;Critical_path;97;Deviation;0.10309278350515463;UID;_1_3_4_12_26_7_13_69_44_25_8_9_2_28_24_37_55_50_53_49_32_42_29_66_71_6_34_5_80_54_46_82_43_57_65_52_91_14_20_10_11_59_67_22_16_60_39_48_23_64_63_41_61_99_15_68_27_36_83_18_87_21_78_47_51_40_58_117_81_56_75_31_85_96_89_17_77_45_116_35_76_106_92_19_33_62_86_114_70_74_38_30_72_93_94_84_101_88_73_79_102_97_105_90_112_95_98_100_103_108_109_104_120_107_111_110_113_121_115_118_119
+File_name;instances\j12015_7.sm;FileNr;58;Cycles;50;PopulationSize;23;Fitness;85;Critical_path;75;Deviation;0.13333333333333333;UID;_1_2_3_4_22_5_34_37_31_8_20_41_6_50_12_13_26_15_7_56_94_64_58_9_19_27_14_23_36_61_73_11_18_39_48_24_25_49_42_60_108_35_29_47_32_28_46_102_44_79_86_54_65_66_62_72_16_53_33_78_38_93_104_76_92_45_83_90_71_21_51_40_55_63_98_57_10_91_74_82_95_67_68_30_85_111_80_70_75_89_107_17_112_43_52_101_77_59_118_84_103_69_110_81_121_97_96_109_87_99_113_100_88_106_114_105_115_117_116_120_119
+File_name;instances\j12015_8.sm;FileNr;59;Cycles;50;PopulationSize;12;Fitness;153;Critical_path;126;Deviation;0.21428571428571427;UID;_1_3_4_2_7_6_64_50_17_13_9_33_80_70_43_11_10_26_21_25_8_24_62_53_35_37_31_44_69_12_15_20_47_42_71_54_49_74_5_30_32_55_41_66_77_16_88_34_94_29_95_28_85_40_67_78_19_57_56_65_83_91_45_39_87_82_86_51_36_14_22_100_72_106_96_18_48_23_52_76_90_60_97_59_27_38_102_99_89_75_93_46_113_61_84_103_105_58_92_112_119_68_63_101_73_79_81_98_107_120_104_108_118_109_116_110
+File_name;instances\j12015_9.sm;FileNr;60;Cycles;50;PopulationSize;16;Fitness;130;Critical_path;109;Deviation;0.1926605504587156;UID;_1_4_2_3_6_29_9_7_31_5_12_35_15_30_20_8_14_23_33_28_10_37_50_41_38_61_69_67_108_32_18_71_13_19_47_65_36_39_40_46_44_55_11_45_25_42_70_54_52_62_88_58_63_87_26_24_89_21_83_81_82_90_16_22_110_64_43_34_85_68_51_60_17_77_95_74_48_96_72_91_53_27_66_59_56_86_49_98_73_105_76_99_103_97_79_57_78_94_92_100_109_104_116_75_80_106_114_111_112_119_84_118_121_101_93_102_113_107_115_117
+File_name;instances\j12016_1.sm;FileNr;61;Cycles;50;PopulationSize;21;Fitness;275;Critical_path;71;Deviation;2.8732394366197185;UID;_1_2_4_3_26_33_11_48_17_8_18_44_38_63_34_21_6_24_72_61_105_5_10_12_7_15_23_36_30_101_9_62_19_27_96_14_54_25_51_81_77_32_103_71_39_35_31_47_60_52_40_55_49_104_78_65_50_82_43_95_108
+File_name;instances\j12016_10.sm;FileNr;62;Cycles;50;PopulationSize;13;Fitness;297;Critical_path;98;Deviation;2.0306122448979593;UID;_1_4_2_30_24_69_47_46_73_83_70_74_5_35_9_78_77_91_10_3_14_58_32_82_6_26_23_66_12_16_57_18_29_36_93_51_13_17_15_39_54_61_55_28_34_67_95_50_7_60_11_20
+File_name;instances\j12016_2.sm;FileNr;63;Cycles;50;PopulationSize;14;Fitness;306;Critical_path;85;Deviation;2.6;UID;_1_3_2_11_23_20_29_4_13_6_5_17_12_9_16_73_65_18_21_57_43_35_44_22_67_70_32_52_7_34_58_10_14_88_19_50_45_71_25_64_63_93_68_77_81_84_42_27_39_75_59_49_97_8_24_30_62_61_66_79
+File_name;instances\j12016_3.sm;FileNr;64;Cycles;50;PopulationSize;11;Fitness;312;Critical_path;97;Deviation;2.216494845360825;UID;_1_3_4_2_17_19_26_23_50_27_48_57_21_91_73_24_55_30_7_32_71_6_8_94_9_11_51_14_16_54_74_60_5_38_25_13_34_68_15_40_67_52_81_43_102_39_44_65_78_12_56_69_104_70_80_45_61_105_35_89
+File_name;instances\j12016_4.sm;FileNr;65;Cycles;50;PopulationSize;15;Fitness;255;Critical_path;80;Deviation;2.1875;UID;_1_3_4_21_6_76_43_23_33_34_59_2_70_77_82_18_7_85_12_8_19_5_10_45_25_9_42_14_24_27_69_20_60_46_44_49_29_50_58_66_88_48_41_54_52_84_94_11_36_15_31_32_71_38_90_97_81_17_28_35_80_30_40_92_53_107_111_73
+File_name;instances\j12016_5.sm;FileNr;66;Cycles;50;PopulationSize;18;Fitness;281;Critical_path;92;Deviation;2.0543478260869565;UID;_1_4_2_11_48_22_64_53_5_3_6_27_7_9_10_8_12_25_33_26_40_14_20_95_82_34_28_35_66_18_42_13_31_45_67_69_23_19_47_54_43_15_61_30_84_38_29_70_41_71_49_96_56_37_60_110_62_58_78_91_63_65_101_39_24_85_112
+File_name;instances\j12016_6.sm;FileNr;67;Cycles;50;PopulationSize;12;Fitness;287;Critical_path;79;Deviation;2.632911392405063;UID;_1_4_2_7_17_37_31_22_14_47_29_36_3_18_54_5_9_8_11_13_15_10_68_93_6_35_21_76_51_56_16_79_69_49_61_27_60_34_101_30_20_40_48_12_66_75_45_24_53_25_46_83_85_77_42_23_84_26_72_32_57_87_62_90_71_86
+File_name;instances\j12016_7.sm;FileNr;68;Cycles;50;PopulationSize;9;Fitness;265;Critical_path;90;Deviation;1.9444444444444444;UID;_1_2_4_5_6_17_8_10_13_54_9_19_27_14_43_26_21_33_60_22_11_12_28_39_30_47_84_85_71_95_57_62_38_52_59_18_63_46_25_40_29_87_16_79_104_55_115_41_3_45_7_44_86_20_105_77_58_69_83_15_80_97_88
+File_name;instances\j12016_8.sm;FileNr;69;Cycles;50;PopulationSize;12;Fitness;268;Critical_path;77;Deviation;2.4805194805194803;UID;_1_2_4_3_7_5_16_9_10_35_12_22_19_34_44_45_80_18_75_28_29_31_48_57_38_60_15_25_39_77_20_43_88_26_32_42_51_6_61_17_13_21_41_8_47_86_87_37_40_49_62_52_11_81_55_65_67_79_66_58_33_53
+File_name;instances\j12016_9.sm;FileNr;70;Cycles;50;PopulationSize;12;Fitness;281;Critical_path;88;Deviation;2.1931818181818183;UID;_1_2_4_3_8_27_6_32_43_16_48_7_5_14_39_20_17_63_76_29_89_57_67_65_21_23_26_80_73_40_42_11_72_24_88_22_30_15_37_64_28_96_49_95_9_38_50_45_100_41_47_56_46_55_66_77_59_82_61_10_18
+File_name;instances\j12017_1.sm;FileNr;71;Cycles;50;PopulationSize;20;Fitness;182;Critical_path;87;Deviation;1.0919540229885059;UID;_1_4_2_3_6_50_7_9_13_84_11_16_41_65_45_88_20_22_58_46_21_40_101_76_49_5_68_15_12_27_78_56_29_44_97_17_10_35_32_8_26_14_31_54_30_33_23_80_37_51_69_19_47_62_81_64_59_24_107_74_48_18_28_36_75_67_25_34_38_39_61_96_55_42_63_71_66_79_52_60_90_100_108_70_73_85_93_43_111_99_112_105_77_89_53
+File_name;instances\j12017_10.sm;FileNr;72;Cycles;50;PopulationSize;19;Fitness;176;Critical_path;88;Deviation;1.0;UID;_1_2_4_3_17_36_6_10_58_38_45_46_29_56_104_88_7_5_11_34_31_40_24_13_12_73_18_20_41_54_25_26_9_52_37_102_21_85_35_14_64_32_55_87_49_51_86_83_57_47_107_8_28_78_93_16_60_81_79_44_39_77_50_15_62_19_71_74_30_65_48_98_68_53_80_22_33_99_69_89_70_63_95_91_94_67_101_66_92_75_72_96_42_23_90
+File_name;instances\j12017_2.sm;FileNr;73;Cycles;50;PopulationSize;22;Fitness;167;Critical_path;74;Deviation;1.2567567567567568;UID;_1_2_3_7_5_45_67_44_6_63_8_33_13_9_19_60_65_38_23_27_43_79_4_29_106_42_84_10_24_22_36_46_30_12_17_104_71_55_32_74_49_15_39_14_52_72_98_18_51_85_99_103_21_62_31_82_35_47_37_54_11_94_100_57_16_25_20_28_40_58_53_66_73_86_26_61_34_41_50_64_75_80_83_87_56_70_88_90_92_68_78_91_97_109_113_77_93_48_81
+File_name;instances\j12017_3.sm;FileNr;74;Cycles;50;PopulationSize;21;Fitness;139;Critical_path;72;Deviation;0.9305555555555556;UID;_1_3_2_4_18_7_43_33_56_13_40_15_12_9_30_70_29_14_46_51_42_22_5_80_76_89_54_6_10_16_47_55_27_84_21_8_78_48_37_85_73_97_11_49_74_23_103_35_82_32_34_64_104_41_57_24_38_83_25_26_77_63_39_36_28_90_58_65_61_53_69_88_87_93_52_17_20_50_112_71_31_75_19_92_66_45_101_100_59_117_106_94_91_96_102_81_62_86_72_68_113_109_98_60_110_107_105_44_79_99_114_118_67_95_121
+File_name;instances\j12017_4.sm;FileNr;75;Cycles;50;PopulationSize;25;Fitness;164;Critical_path;91;Deviation;0.8021978021978022;UID;_1_4_3_8_5_7_79_2_9_6_63_15_16_14_77_86_56_82_28_10_78_30_47_33_66_18_11_24_64_67_17_54_25_36_81_59_44_106_91_94_75_57_12_35_65_37_97_19_23_22_61_49_26_42_39_68_34_38_13_104_46_20_90_52_85_99_27_107_51_55_21_29_62_50_93_32_88_74_31_105_76_69_40_73_101_41_43_110_108_114_45_71_83_72_80_89_84_109_96_48_53_70_87
+File_name;instances\j12017_5.sm;FileNr;76;Cycles;50;PopulationSize;25;Fitness;173;Critical_path;90;Deviation;0.9222222222222223;UID;_1_4_3_2_17_8_22_11_13_53_27_5_12_38_10_54_24_55_34_88_67_7_84_92_9_75_96_15_16_63_21_45_80_82_42_77_18_102_33_35_59_61_105_39_66_14_94_81_93_19_26_29_20_60_48_47_46_76_25_58_30_23_36_49_49_70_51_74_97_28_99_31_50_40_52_6_69_44_32_71_37_57_86_89_73_79_120_56_72_78_65_103_43_85
+File_name;instances\j12017_6.sm;FileNr;77;Cycles;50;PopulationSize;14;Fitness;170;Critical_path;68;Deviation;1.5;UID;_1_2_4_10_14_43_15_12_87_23_18_29_3_28_94_106_42_51_13_71_7_97_24_25_22_101_17_34_57_63_35_55_100_5_32_92_79_44_20_37_88_41_103_53_60_109_49_16_83_64_62_6_65_80_74_21_46_11_9_33_47_31_36_26_58_76_61_50_38_45_82_78_102_70_85_111_8_95_67_52_66_27_39_91_75_68_99_84_54_40_30_19_90_108_48_59_69
+File_name;instances\j12017_7.sm;FileNr;78;Cycles;50;PopulationSize;22;Fitness;193;Critical_path;98;Deviation;0.9693877551020408;UID;_1_2_3_4_46_6_5_12_11_7_13_43_72_10_37_9_40_23_82_70_14_22_49_15_65_27_25_17_16_48_44_31_55_96_110_24_30_63_86_77_54_19_42_73_81_89_39_32_61_53_59_95_68_88_8_117_87_92_93_97_79_103_98_18_57_28_35_21_58_29_50_78_102_51_109_36_69_20_62_38_45_33_64_26_71_83_67_90_107_91_52_84_113_41
+File_name;instances\j12017_8.sm;FileNr;79;Cycles;50;PopulationSize;7;Fitness;175;Critical_path;73;Deviation;1.3972602739726028;UID;_1_4_3_2_7_5_14_17_32_28_16_21_51_35_6_11_77_26_60_100_8_12_30_20_47_15_43_37_59_64_61_93_69_18_31_23_22_55_54_82_44_53_91_56_49_76_68_72_71_38_79_81_10_36_109_75_103_19_92_34_25_50_70_41_63_87_104_9_90_88_29_57_46_83_52_58_73_67_106_101_66_13_78_24_108_110_99_39_45_27_42_65
+File_name;instances\j12017_9.sm;FileNr;80;Cycles;50;PopulationSize;23;Fitness;173;Critical_path;81;Deviation;1.1358024691358024;UID;_1_2_4_12_15_6_57_40_13_3_63_16_36_42_18_64_68_34_7_60_90_73_41_5_9_11_14_24_27_82_29_21_8_48_35_33_84_98_19_22_10_17_62_69_47_45_28_80_44_59_46_66_71_88_52_72_103_26_20_86_105_91_93_95_23_100_97_77_25_49_110_83_51_61_113_30_31_65_76_74_79_87_32_38_81_56_115_50_58_39_54_70_37_85_55_92_78
+File_name;instances\j12018_1.sm;FileNr;81;Cycles;50;PopulationSize;20;Fitness;183;Critical_path;101;Deviation;0.8118811881188119;UID;_1_2_4_3_10_32_7_42_61_16_18_24_21_14_45_5_27_52_65_8_6_57_64_35_17_40_67_88_36_104_9_44_114_25_11_81_63_68_12_37_33_79_43_34_15_22_46_30_19_92_85_62_70_41_101_13_47_86_28_29_20_51_50_39_31_23_54_48_80_58_59_55_49_89_73_77_83_90_93_108_102_60_66_78_71_91_111_84_26_75_38_87_53_109_56
+File_name;instances\j12018_10.sm;FileNr;82;Cycles;50;PopulationSize;14;Fitness;143;Critical_path;84;Deviation;0.7023809523809523;UID;_1_4_2_3_81_42_11_5_8_6_7_28_9_12_18_14_19_20_34_21_24_41_22_70_45_26_29_25_49_38_47_53_39_43_10_16_50_67_88_40_46_51_69_71_83_74_37_17_33_56_76_27_91_48_58_60_104_66_30_62_95_73_35_77_52_110_31_113_59_64_75_79_84_55_13_15_96_87_44_80_54_32_97_72_36_105_78_98_86_99_85_57_23_90_117_94_61_63_65_101_68_111_89_102_100_92_82_93_108_121_114_103_118_120_106_115_107_109
+File_name;instances\j12018_2.sm;FileNr;83;Cycles;50;PopulationSize;24;Fitness;155;Critical_path;111;Deviation;0.3963963963963964;UID;_1_4_2_3_7_9_14_20_26_18_25_17_40_84_29_90_85_48_86_100_15_8_6_5_23_21_11_27_30_10_50_54_45_61_49_36_60_12_63_35_32_13_16_34_19_42_37_58_31_59_55_69_38_44_91_46_74_98_51_108_66_43_115_71_101_53_72_79_77_68_57_22_104_102_81_87_24_33_28_62_39_56_41_47_96_76_67_82_52_83_95_113_80_116_65_111_92_109_105_73_97_78_94_88_99_103_75_121_64_93_107_106
+File_name;instances\j12018_3.sm;FileNr;84;Cycles;50;PopulationSize;18;Fitness;129;Critical_path;72;Deviation;0.7916666666666666;UID;_1_2_4_3_38_9_8_10_46_43_57_16_12_18_23_26_79_71_28_21_54_25_36_48_37_51_55_14_6_20_11_30_61_101_17_22_73_35_15_27_69_29_39_103_32_81_50_47_19_5_41_59_104_97_63_24_31_40_49_65_42_52_78_67_66_77_53_56_44_62_85_72_76_109_34_64_60_110_102_68_82_7_91_92_87_75_93_106_112_33_99_13_45_88_83_114_94_74_120_58_113_70_116_84_118_80_89_95_90_96_98_86_108_107_100_105_111_117_115
+File_name;instances\j12018_4.sm;FileNr;85;Cycles;50;PopulationSize;26;Fitness;133;Critical_path;77;Deviation;0.7272727272727273;UID;_1_2_4_3_37_5_12_11_53_7_24_19_38_9_21_34_15_26_31_22_42_61_47_100_70_39_25_45_68_49_77_64_6_18_20_90_65_16_35_86_41_28_73_59_8_10_30_14_92_52_23_13_32_46_69_75_104_66_94_67_74_40_103_79_44_43_33_105_106_17_54_99_83_98_102_89_107_95_55_29_56_72_93_48_36_76_60_57_81_50_78_71_116_91_82_51_84_80_108_111_87_97_96_63_27_85_62_117_101_119_114_109_58_110_88_115_112
+File_name;instances\j12018_5.sm;FileNr;86;Cycles;50;PopulationSize;21;Fitness;148;Critical_path;88;Deviation;0.6818181818181818;UID;_1_2_3_4_46_31_5_11_8_6_23_76_77_7_17_29_32_79_16_15_19_9_115_25_47_36_53_64_44_39_56_30_12_82_42_63_54_100_18_26_24_21_92_50_40_57_55_58_85_60_66_59_65_105_70_86_89_62_73_13_71_27_119_91_28_48_10_37_37_52_45_20_61_35_97_14_22_33_80_81_74_110_67_98_34_75_72_95_84_68_41_94_69_78_49_38_87_51_88_109_108_83_104_93_96_101_103_106_90_99_107_112_102_117
+File_name;instances\j12018_6.sm;FileNr;87;Cycles;50;PopulationSize;17;Fitness;192;Critical_path;108;Deviation;0.7777777777777778;UID;_1_3_2_4_30_29_14_5_54_43_37_18_20_24_21_8_22_57_45_36_62_42_23_49_65_78_44_6_35_7_11_12_9_51_80_19_10_38_85_28_26_17_47_39_71_89_13_40_15_93_16_59_25_31_41_27_32_64_46_81_55_72_56_60_66_84_70_90_91_68_88_97_96_86_48_53_74_92_50_83_34_98_79_33_69_75_87_58
+File_name;instances\j12018_7.sm;FileNr;88;Cycles;50;PopulationSize;24;Fitness;151;Critical_path;89;Deviation;0.6966292134831461;UID;_1_3_4_2_39_6_22_63_30_10_8_71_40_37_68_25_14_9_34_50_61_70_5_15_73_33_80_7_12_11_19_51_66_13_16_18_23_36_47_32_49_43_56_21_52_87_44_27_62_57_100_81_74_93_110_28_29_48_91_45_75_65_60_41_84_78_90_115_82_94_76_20_26_83_95_98_88_97_42_17_72_55_101_99_107_31_67_46_77_96_103_79_38_64_105_113_108_92_54_104_24_69

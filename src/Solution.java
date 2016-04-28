@@ -3,6 +3,17 @@ public class Solution {
 
 	private int criticalPath;
 	private int fitness;
+	private int cycles;
+	private int populationSize;
+	private String fittestIndividualUID;
+
+	public String getFittestIndividualUID() {
+		return fittestIndividualUID;
+	}
+
+	public void setFittestIndividualUID(String fittestIndividualUID) {
+		this.fittestIndividualUID = fittestIndividualUID;
+	}
 
 	public Solution() {
 	}
@@ -13,6 +24,22 @@ public class Solution {
 
 	public void setFitness(int fitness) {
 		this.fitness = fitness;
+	}
+
+	public int getCycles() {
+		return cycles;
+	}
+
+	public void setCycles(int cycles) {
+		this.cycles = cycles;
+	}
+
+	public int getPopulation() {
+		return populationSize;
+	}
+
+	public void setPopulation(int population) {
+		this.populationSize = population;
 	}
 
 	/**

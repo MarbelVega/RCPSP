@@ -15,21 +15,24 @@ public class Test {
 		File folder = new File("instances");
 		File[] listOfFiles = folder.listFiles();
 		
-	    FileWriter fw = new FileWriter("ausgabe.csv");
+	    FileWriter fw = new FileWriter("ausgabe.csv",true);
 	    BufferedWriter bw = new BufferedWriter(fw);
 	    
 //		Iterate over all files in the folder
 		for (File file : listOfFiles) {
+			numberOfSolutions++;
 //			Calculate solution for problem insatnce
 			System.out.println("Starting file "+file.getPath());
 			Solution solution = Test.processOneInstance(file.getPath());	
-			String output = "File_name;"+file.getPath()+";Fitness;" + solution.getFitness() + ";Critical_path;"+solution.getCriticalPath() + ";Deviation;"+solution.getDeviation();
+			String output = "File_name;"+file.getPath()+";FileNr;"+numberOfSolutions+";Cycles;"+solution.getCycles()+";PopulationSize;"+solution.getPopulation()+";Fitness;" + solution.getFitness() + ";Critical_path;"+solution.getCriticalPath() + ";Deviation;"+solution.getDeviation() + ";UID;"+solution.getFittestIndividualUID();
 			System.out.println(output+"\n");
 		   
 			bw.write(output+"\n");
+			bw.flush();
+			//fw.write(output+"\n");
 
 			averageDeviation = averageDeviation + solution.getDeviation();
-			numberOfSolutions++;
+			
 		}
 		bw.close();
 		
@@ -81,7 +84,7 @@ public class Test {
 
 		//////////////////////////////////////////////////////////////////////////////
 		// 3) GENERATE NEW INDIVIDUALS BY MUTATION
-		while (population.getCycles() <= 50000) {
+		while (population.getCycles() < (50000 - 1)) {
 			ArrayList<Individual> pickedParents = evolution.getRankedIndividuals(population); //random pick of two but weighed with fitness //Marc
 			ArrayList<Individual> crossoveredChildren = evolution.crossover(pickedParents.get(0), pickedParents.get(1)); //crossover the joblists of them //Patrick
 			ArrayList<Individual> crossoveredAndMutatedChildren = evolution.mutate(jobs, crossoveredChildren); //take it from individual and put into evolution //Georg
@@ -95,7 +98,10 @@ public class Test {
 			}
 		}
 		Individual bestIndividual = population.getFittest();
+		solution.setFittestIndividualUID(bestIndividual.getUniqueOrderId());
 		solution.setFitness(bestIndividual.getFitness());
+		solution.setCycles(population.getCycles());
+		solution.setPopulation(population.getPopulationSize());
 		return solution;
 	}
 
