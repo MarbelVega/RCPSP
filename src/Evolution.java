@@ -6,11 +6,6 @@ import javax.naming.directory.InvalidAttributesException;
 
 public class Evolution {
 
-	public ArrayList<Individual> mutate(ArrayList<Individual> crossoveredChildren) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
 	public ArrayList<Individual> crossover(Individual father, Individual mother) throws Exception {
 		Individual son = new Individual();
 		Individual daughter = new Individual();
@@ -82,13 +77,31 @@ public class Evolution {
 		
 		ArrayList<Individual> SortedPopulation = population.getIndividuals();
 		
-		long sumRank = 0;
-		int Rank = 0;
-		for (Individual i : SortedPopulation) {
-
-		}
+		//Parent 1
+		rankedIndividuals.add(getRankedParent(SortedPopulation));
+		//Parent 2
+		rankedIndividuals.add(getRankedParent(SortedPopulation));	
 		
 		return rankedIndividuals;
+	}
+	
+	private Individual getRankedParent(ArrayList<Individual> pop) {
+		int popSize = pop.size();
+		long sumRank = (popSize * (popSize+1)) / 2;
+		int Rank = popSize;
+		double propability = 0.0;
+		double random = Math.random();
+		
+		for (int i = 0; i < popSize; i++) {
+			propability = propability + (double)Rank / sumRank;
+			Rank--;
+			
+			if (random <= propability) {
+				return pop.get(i);
+			}
+		}
+		//never reached
+		return null;
 	}
 	
 	public ArrayList<Individual> mutate(Job[] jobs, ArrayList<Individual> individuals){

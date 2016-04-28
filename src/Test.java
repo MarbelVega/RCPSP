@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public class Test {
 
-	public static void main(String[] args) throws FileNotFoundException {
+	public static void main(String[] args) throws Exception {
 		
 		double averageDeviation = 0;
 		int numberOfSolutions = 0;
@@ -28,7 +28,7 @@ public class Test {
 		System.out.println((double)averageDeviation / numberOfSolutions);
 	}
 
-	private static Solution processOneInstance(String fileName) throws FileNotFoundException {
+	private static Solution processOneInstance(String fileName) throws Exception {
 		//////////////////////////////////////////////////////////////////////////////
 		// 1) READ INSTANCE (http://www.om-db.wi.tum.de/psplib/)
 		Job[] jobs = Job.read(new File(fileName));// best makespan=112
@@ -69,7 +69,7 @@ public class Test {
 		while (population.getCycles() <= 50000) {
 			ArrayList<Individual> pickedParents = evolution.getRankedIndividuals(population); //random pick of two but weighed with fitness //Marc
 			ArrayList<Individual> crossoveredChildren = evolution.crossover(pickedParents.get(0), pickedParents.get(1)); //crossover the joblists of them //Patrick
-			ArrayList<Individual> crossoveredAndMutatedChildren = evolution.mutate(crossoveredChildren); //take it from individual and put into evolution //Georg
+			ArrayList<Individual> crossoveredAndMutatedChildren = evolution.mutate(jobs, crossoveredChildren); //take it from individual and put into evolution //Georg
 
 			for (Individual child : crossoveredAndMutatedChildren) {
 				child.decodeJobList(jobs, res);
