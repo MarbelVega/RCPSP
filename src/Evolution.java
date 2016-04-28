@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Evolution {
 
@@ -7,22 +8,41 @@ public class Evolution {
 		return null;
 	}
 
-	public ArrayList<Individual> crossover(Individual individual, Individual individual2) {
+	public ArrayList<Individual> crossover(Individual father, Individual mother) {
 		Individual son = new Individual();
 		Individual daughter = new Individual();
 		ArrayList<Individual> children = new ArrayList<Individual>();
 		
-		int length1 = individual.jobListe.length;
-		int length2 = individual2.jobListe.length;
+		int length1 = father.jobListe.length;
+		int length2 = mother.jobListe.length;
 
 		if(length1 != length2){
 			//TODO Exception or sth.
 			System.out.println("Something wrong with Individuals. Number of job items doesn't match.");
 		}
 		
-		//TODO dummy
-		son.jobListe = individual.jobListe;
-		daughter.jobListe = individual2.jobListe;
+		/**
+			Crossover in the middle of parents: 
+			Son_Front -> Father_Front
+			Daughter_Front -> Mother_Front
+			Son_Back -> Mother_Back
+			Daughter_Back -> Father_Back
+		*/
+		
+		for(int i =0; i < length1; i++){
+			if (i <= length1/2){
+				son.jobListe[i] = father.jobListe[i];
+				daughter.jobListe[i] = mother.jobListe[i];
+			} else{
+				/**
+				 	TODO 
+				 	Making sure that job numbers don't appear twice
+				 */
+			
+				son.jobListe[i] = mother.jobListe[i];
+				daughter.jobListe[i] = father.jobListe[i];
+			}
+		}
 		
 		children.add(son);
 		children.add(daughter);
