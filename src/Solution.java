@@ -6,6 +6,7 @@ public class Solution {
 	private int cycles;
 	private int populationSize;
 	private String fittestIndividualUID;
+	private boolean foundBestSolution = false;
 
 	public String getFittestIndividualUID() {
 		return fittestIndividualUID;
@@ -13,6 +14,14 @@ public class Solution {
 
 	public void setFittestIndividualUID(String fittestIndividualUID) {
 		this.fittestIndividualUID = fittestIndividualUID;
+	}
+
+	public boolean hasFoundBestSolution() {
+		return foundBestSolution;
+	}
+
+	public void setFoundBestSolution(boolean foundBestSolution) {
+		this.foundBestSolution = foundBestSolution;
 	}
 
 	public Solution() {

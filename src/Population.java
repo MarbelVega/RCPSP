@@ -6,6 +6,7 @@ public class Population {
 	
 	//private HashMap<String,Individual> pop = new HashMap<String,Individual>();
 	private int cycles = 0;
+	private int PopulationCapPerFitnessLevel = Integer.MAX_VALUE;
 	
 	public int getCycles() {
 		return cycles;
@@ -28,6 +29,11 @@ public class Population {
 			individuals.add(s);
 		}
 		cycles++;
+		
+		if (PopulationCapPerFitnessLevel != Integer.MAX_VALUE) {
+			reducePopulation();
+		}
+		
 		return isNew;
 	}
 
@@ -50,7 +56,55 @@ public class Population {
 	public void sort() {		
 		Collections.sort(individuals);
 	}
+	
+	public int getPopulationCapPerFitnessLevel() {
+		return PopulationCapPerFitnessLevel;
+	}
 
+	public void setPopulationCapPerFitnessLevel(int populationCapPerFitnessLevel) {
+		PopulationCapPerFitnessLevel = populationCapPerFitnessLevel;
+	}
+
+	private void reducePopulation()
+	{
+		sort();
+		int oldfitness = 0;
+		int IndividualsWithSameFitness = 0;
+		
+		for (int i = 0; i < individuals.size(); i++) {
+			int individualfitness = individuals.get(i).getFitness();
+			if (oldfitness == individualfitness) {
+				IndividualsWithSameFitness++;
+			}
+			else {
+				oldfitness = individualfitness;				
+				
+				if (IndividualsWithSameFitness > PopulationCapPerFitnessLevel) {
+					removeIndividualAtRelativePosition(i, IndividualsWithSameFitness);
+
+					i--;
+				}	
+				
+				IndividualsWithSameFitness = 1;
+			}			
+		}	
+		
+		if (IndividualsWithSameFitness > PopulationCapPerFitnessLevel)
+		{
+			removeIndividualAtRelativePosition(individuals.size(),IndividualsWithSameFitness);
+		}
+		
+	}
+	
+	private void removeIndividualAtRelativePosition(int endOfRelativeBoundry, int numberOfElements) {
+		double random = Math.random();
+		int removeIndex = (int)(random * numberOfElements);
+
+		removeIndex = removeIndex + endOfRelativeBoundry - numberOfElements;
+		individuals.remove(removeIndex);		
+	}
+	
+	
 	public ArrayList<Individual> getIndividuals() {
 		ArrayList<Individual> copyArrayList = new ArrayList<Individual>();
 		

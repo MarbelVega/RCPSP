@@ -156,12 +156,15 @@ public class Individual implements Comparable<Individual>{
 		
 		if (wasDecoded == true) {
 			if (UniqueOrderId == null) {
-				String tmpString = this.getFitness() +"";
+				String tmpString = "" + this.getFitness();
 				for(int k = 0; k < schedule.length; k++){
 					for(int i = 0; i < schedule.length; i++){
 						for(int j = 0; j < jobListe.length; j++){
 							if (k == schedule[i] && j == jobListe[i]) {
 								tmpString += "_" + jobListe[i];
+							}
+							if (jobListe[i] == jobListe[j] && i != j) {
+								throw new RuntimeException("Joblist is erroneous!");
 							}
 						}
 					}			

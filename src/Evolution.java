@@ -38,6 +38,27 @@ public class Evolution {
 		return children;
 	}
 	
+	public ArrayList<Individual> crossover2(Individual father, Individual mother) throws Exception {
+		Individual son = new Individual();
+		Individual daughter = new Individual();
+		ArrayList<Individual> children = new ArrayList<Individual>();
+		
+		int length1 = father.jobListe.length;
+		int length2 = mother.jobListe.length;
+
+		son.jobListe = new int[length1];
+		daughter.jobListe = new int[length1];
+		
+		for(int i =0; i < length1; i++){
+				son.jobListe[i] = father.jobListe[i];
+				daughter.jobListe[i] = mother.jobListe[i];
+		}
+		
+		children.add(son);
+		children.add(daughter);
+		return children;
+	}
+	
 	public void normalizeChild(Individual child, Individual parent, int normalizeFrom, int normalizeTo, int validFrom, int validTo){
 		ArrayList<Integer> validPartOfChildJobListe = new ArrayList<Integer>();
 		for(int j = validFrom; j < validTo; j++){
@@ -105,9 +126,11 @@ public class Evolution {
 		return null;
 	}
 	
-	public ArrayList<Individual> mutate(Job[] jobs, ArrayList<Individual> individuals){
+	public ArrayList<Individual> mutate(Job[] jobs, ArrayList<Individual> individuals,int numberOfIterations){
 		for (Individual individual : individuals) {
-			individual.mutate(jobs);
+			for (int i = 0; i < numberOfIterations; i++) {
+				individual.mutate(jobs);
+			}
 		}
 		return individuals;
 	}

@@ -66,13 +66,14 @@ public class Test {
 		//System.out.println("Fitness start point (=makespan): " + firstMother.getFitness());
 
 		Population population = new Population();
+		population.setPopulationCapPerFitnessLevel(5); // keep only 5 individuals per fitness-level
 		population.addIndividual(firstMother);
 		Individual firstFather = new Individual();// generate an individual
 		firstFather.reproduce(firstMother);
 		
 		boolean isNewParent = false;
 		while (isNewParent == false) {
-			for (int i = 0; i < 20; i++) {
+			for (int i = 0; i < 1000; i++) {
 				firstFather.mutate(jobs);	
 			}
 			
@@ -84,17 +85,23 @@ public class Test {
 
 		//////////////////////////////////////////////////////////////////////////////
 		// 3) GENERATE NEW INDIVIDUALS BY MUTATION
-		while (population.getCycles() < (50000 - 1)) {
+		while (population.getCycles() < (50000 - 1) && solution.hasFoundBestSolution() == false) {
 			ArrayList<Individual> pickedParents = evolution.getRankedIndividuals(population); //random pick of two but weighed with fitness //Marc
-			ArrayList<Individual> crossoveredChildren = evolution.crossover(pickedParents.get(0), pickedParents.get(1)); //crossover the joblists of them //Patrick
-			ArrayList<Individual> crossoveredAndMutatedChildren = evolution.mutate(jobs, crossoveredChildren); //take it from individual and put into evolution //Georg
+			ArrayList<Individual> crossoveredChildren = evolution.crossover2(pickedParents.get(0), pickedParents.get(1)); //crossover the joblists of them //Patrick
+			ArrayList<Individual> crossoveredAndMutatedChildren = evolution.mutate(jobs, crossoveredChildren,100); //take it from individual and put into evolution //Georg
 
 			for (Individual child : crossoveredAndMutatedChildren) {
 				child.decodeJobList(jobs, res);
 				population.addIndividual(child);
 			}
-			if(population.getCycles() % 500 == 0){
-				System.out.println("Cycles: " + population.getCycles() + " - Population: " + population.getPopulationSize() + " - Fittest Individual: " + population.getFittest().getFitness());
+			
+			if (population.getFittest().getFitness() == criticalPathIndividual.getFitness())
+			{
+				solution.setFoundBestSolution(true);
+			}
+			
+			if(population.getCycles() % 5000 == 0 || solution.hasFoundBestSolution() == true){
+				System.out.println("Cycles: " + population.getCycles() + " - Population: " + population.getPopulationSize() + " - Fittest Individual: " + population.getFittest().getFitness() + " of " + criticalPathIndividual.getFitness());
 			}
 		}
 		Individual bestIndividual = population.getFittest();
