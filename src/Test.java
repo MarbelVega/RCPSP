@@ -1,7 +1,6 @@
 
 import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.util.ArrayList;
 
@@ -21,7 +20,7 @@ public class Test {
 //		Iterate over all files in the folder
 		for (File file : listOfFiles) {
 			numberOfSolutions++;
-//			Calculate solution for problem insatnce
+//			Calculate solution for problem instance
 			System.out.println("Starting file "+file.getPath());
 			Solution solution = Test.processOneInstance(file.getPath());	
 			String output = "File_name;"+file.getPath()+";FileNr;"+numberOfSolutions+";Cycles;"+solution.getCycles()+";PopulationSize;"+solution.getPopulation()+";Fitness;" + solution.getFitness() + ";Critical_path;"+solution.getCriticalPath() + ";Deviation;"+solution.getDeviation() + ";UID;"+solution.getFittestIndividualUID();
@@ -87,7 +86,7 @@ public class Test {
 		// 3) GENERATE NEW INDIVIDUALS BY MUTATION
 		while (population.getCycles() < (50000 - 1) && solution.hasFoundBestSolution() == false) {
 			ArrayList<Individual> pickedParents = evolution.getRankedIndividuals(population); //random pick of two but weighed with fitness //Marc
-			ArrayList<Individual> crossoveredChildren = evolution.crossover2(pickedParents.get(0), pickedParents.get(1)); //crossover the joblists of them //Patrick
+			ArrayList<Individual> crossoveredChildren = evolution.fixedCrossover(pickedParents.get(0), pickedParents.get(1)); //crossover the joblists of them //Patrick
 			ArrayList<Individual> crossoveredAndMutatedChildren = evolution.mutate(jobs, crossoveredChildren,100); //take it from individual and put into evolution //Georg
 
 			for (Individual child : crossoveredAndMutatedChildren) {

@@ -1,10 +1,84 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Random;
 
 import javax.naming.directory.InvalidAttributesException;
 
 public class Evolution {
+	
+	/**
+	 * 1-Point crossover by Dominik. Not sure if correct
+	 * @param father
+	 * @param mother
+	 * @return
+	 * @throws Exception
+	 */
+	public ArrayList<Individual> fixedCrossover(Individual father, Individual mother) {
+		Individual son = new Individual();
+		Individual daughter = new Individual();
+		ArrayList<Individual> children = new ArrayList<Individual>();
+		
+		int totalLength = father.jobListe.length; 
+
+		son.jobListe = new int[totalLength];
+		daughter.jobListe = new int[totalLength];
+		
+		int cut = getRandomCuttingPoint(father.jobListe);
+		int lastFilledValueSon = 0;
+		int lastFilledValueDaughter = 0;
+		
+		// Fill children with first parent up to cutting point
+		for (int i = 0; i < cut ; i++){
+			son.jobListe[i] = father.jobListe[i];
+			lastFilledValueSon++;
+			
+			daughter.jobListe[i] = mother.jobListe[i];
+			lastFilledValueDaughter++;
+		}
+		
+		
+//		Fill children with missing values of other parent. Go through whole list of parent
+//		and check if value already exists in child.
+		for (int i = 0; i<father.jobListe.length;i++){
+			int valueSon = mother.jobListe[i];
+			if (listeContainsInteger(son.jobListe, valueSon) == false) {
+				son.jobListe[lastFilledValueSon] = valueSon;
+				lastFilledValueSon++;
+			}
+			int valueDaughter = father.jobListe[i];
+			if (listeContainsInteger(daughter.jobListe, valueDaughter) == false) {
+				daughter.jobListe[lastFilledValueDaughter] = valueDaughter;
+				lastFilledValueDaughter++;
+			}
+		}
+		
+		children.add(son);
+		children.add(daughter);
+		return children;
+	}
+	
+	private boolean listeContainsInteger(int[] jobs, int value){
+		for (int i=0; i<jobs.length;i++){
+			if (jobs[i] == value){
+				return true;
+			}
+		}
+		return false;
+	}
+	
+	/**
+	 * Generate a random point with 1 <= value < jobListe.length-1
+	 * @param jobs
+	 * @return
+	 */
+	private int getRandomCuttingPoint(int[] jobs) {
+		int min = 1;
+		int max = jobs.length - 1;
+		Random ran = new Random();
+		int value = ran.nextInt(max - min) + min;
+		return value;
+	}
 
 	public ArrayList<Individual> crossover(Individual father, Individual mother) throws Exception {
 		Individual son = new Individual();
@@ -58,6 +132,8 @@ public class Evolution {
 		children.add(daughter);
 		return children;
 	}
+	
+
 	
 	public void normalizeChild(Individual child, Individual parent, int normalizeFrom, int normalizeTo, int validFrom, int validTo){
 		ArrayList<Integer> validPartOfChildJobListe = new ArrayList<Integer>();

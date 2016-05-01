@@ -1,5 +1,5 @@
 Open:
-a) Fix Crossover
+a) Fix Crossover (done --> needs to be looked at)
 b) Fix UniqueID-Generation (same schedules seem to generate different IDs)
 c) Fix Critical-Path method after Job-Nr 10 
 z) Find alternatives for mutation after Crossover
@@ -15,8 +15,6 @@ TASK B
 
 TASK C
 3. Create a selection process for crossover (rank for example)
-
-
 
 TASK E
 4. Calculate the critical path (solution with unlimited resources)
