@@ -69,6 +69,7 @@ public class Job {
 			if (nummer == jobs[i].nummer)
 			{
 				j = jobs[i];
+				return j;
 			}
 		}
 		return j;
