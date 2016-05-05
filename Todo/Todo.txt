@@ -1,10 +1,16 @@
 Open:
-a) Fix Crossover (done --> needs to be looked at)
-b) Fix UniqueID-Generation (same schedules seem to generate different IDs)
-c) Fix Critical-Path method after Job-Nr 10 
+c) Fix Critical-Path method after Job-Nr 10
+d) Check Fixed Crossover
+e) Introduce Parallelism
+
 z) Find alternatives for mutation after Crossover
 
-Finished:
+Finished (May):
+b) Fix UniqueID-Generation (done)
+a) Fix Crossover (done)
+f) Enable Selection of a File-Range by name (done)
+
+Finished (April):
 TASK A
 1. Save a pool of solutions (not only the last)
 - New class with a individuals collection

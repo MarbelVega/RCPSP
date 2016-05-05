@@ -154,28 +154,39 @@ public class Individual implements Comparable<Individual>{
 	public String getUniqueOrderId(){
 		//return the joborder as a String to create a unique  ID
 		
-		if (wasDecoded == true) {
-			if (UniqueOrderId == null) {
-				String tmpString = "" + this.getFitness();
-				for(int k = 0; k < schedule.length; k++){
-					for(int i = 0; i < schedule.length; i++){
-						for(int j = 0; j < jobListe.length; j++){
-							if (k == schedule[i] && j == jobListe[i]) {
-								tmpString += "_" + jobListe[i];
-							}
-							if (jobListe[i] == jobListe[j] && i != j) {
-								throw new RuntimeException("Joblist is erroneous!");
-							}
-						}
-					}			
-				}
-				UniqueOrderId = tmpString;
-			}
-		}
-		else
-		{
+		if (wasDecoded == false) {
 			throw new RuntimeException("Error: Inidivual was not decoded");
 		}
+		
+		
+		if (UniqueOrderId == null) {
+			int checkJobNr = 0;
+			int maxSchedule = 0;
+			String tmpString = "" + this.getFitness();
+			for(int k = 0; k < schedule.length; k++) {
+				if (schedule[k] > maxSchedule) {
+					maxSchedule = schedule[k];
+				}
+			}
+			
+			for(int k = 0; k <= maxSchedule; k++){
+				for(int i = 1; i <= jobListe.length; i++){
+					for(int j = 0; j < schedule.length; j++){
+						if (k == schedule[j] && i == jobListe[j]) {
+							tmpString += "_" + jobListe[j];
+							checkJobNr++;
+							j = schedule.length;
+						}
+					}
+				}			
+			}
+			if (checkJobNr != jobListe.length && checkJobNr != schedule.length) {
+				throw new RuntimeException("Joblist is erroneous!");
+			}
+			
+			UniqueOrderId = tmpString;
+		}
+				
 		return UniqueOrderId;
 	}
 	

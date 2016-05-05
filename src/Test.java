@@ -6,6 +6,9 @@ import java.util.ArrayList;
 
 public class Test {
 
+	private static int startFileNumber = 1;
+	private static int endFileNumber = Integer.MAX_VALUE;
+	
 	public static void main(String[] args) throws Exception {
 		
 		double averageDeviation = 0;
@@ -21,16 +24,19 @@ public class Test {
 		for (File file : listOfFiles) {
 			numberOfSolutions++;
 //			Calculate solution for problem instance
-			System.out.println("Starting file "+file.getPath());
-			Solution solution = Test.processOneInstance(file.getPath());	
-			String output = "File_name;"+file.getPath()+";FileNr;"+numberOfSolutions+";Cycles;"+solution.getCycles()+";PopulationSize;"+solution.getPopulation()+";Fitness;" + solution.getFitness() + ";Critical_path;"+solution.getCriticalPath() + ";Deviation;"+solution.getDeviation() + ";UID;"+solution.getFittestIndividualUID();
-			System.out.println(output+"\n");
-		   
-			bw.write(output+"\n");
-			bw.flush();
-			//fw.write(output+"\n");
+			if (numberOfSolutions >= startFileNumber && numberOfSolutions <= endFileNumber) {
+				System.out.println("Starting file "+file.getPath());
+				Solution solution = Test.processOneInstance(file.getPath());	
+				String output = "File_name;"+file.getPath()+";FileNr;"+numberOfSolutions+";Cycles;"+solution.getCycles()+";PopulationSize;"+solution.getPopulation()+";Fitness;" + solution.getFitness() + ";Critical_path;"+solution.getCriticalPath() + ";Deviation;"+solution.getDeviation() + ";UID;"+solution.getFittestIndividualUID();
+				System.out.println(output+"\n");
+			   
+				bw.write(output+"\n");
+				bw.flush();
+				
+				averageDeviation = averageDeviation + solution.getDeviation();
+			}
 
-			averageDeviation = averageDeviation + solution.getDeviation();
+			
 			
 		}
 		bw.close();
