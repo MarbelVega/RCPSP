@@ -1,5 +1,10 @@
+Questions @Professor:
+- Is critical Path = duedate or mpm-time?
+- Is mutation already a cycle or does only a decoding count?
+- Deliverables / Todos?
+
 Open:
-c) Fix Critical-Path method after Job-Nr 10
+c) Fix Critical-Path method after Job-Nr 10		
 d) Check Fixed Crossover
 
 z) Find alternatives for mutation after Crossover
