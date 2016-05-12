@@ -1,7 +1,6 @@
 Open:
 c) Fix Critical-Path method after Job-Nr 10
 d) Check Fixed Crossover
-e) Introduce Parallelism
 
 z) Find alternatives for mutation after Crossover
 
@@ -9,6 +8,7 @@ Finished (May):
 b) Fix UniqueID-Generation (done)
 a) Fix Crossover (done)
 f) Enable Selection of a File-Range by name (done)
+e) Introduce Parallelism
 
 Finished (April):
 TASK A
