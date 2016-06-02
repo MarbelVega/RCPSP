@@ -5,8 +5,8 @@ import java.util.concurrent.Executors;
 
 public class Test {
 
-	private static int startFileNumber = 101;	//Start with this file-Nr
-	private static int endFileNumber = 150;		//End with this file-Nr
+	private static int startFileNumber = 301;	//Start with this file-Nr
+	private static int endFileNumber = 450;		//End with this file-Nr
 	private static int Threadpoolsize = 5;		//Number of parallel tasks
     private static int populationCap = 5;		//keep n Solutions for each fitness-value
     private static int numberOfCycles = 50000;	//Target cycle-Number
